@@ -7,7 +7,7 @@
     "filename": "d4wta-ap",
     "navigation": {
       "prev": "https://semiceu.github.io/CPSV-AP/releases/3.2.0/",
-      "self": "https://EmidioStani.github.io/CPSV-AP/releases/3.2.0/"
+      "self": "https://EmidioStani.github.io/D4WTA-AP/releases/3.2.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "documenttype": "ap",
@@ -718,5 +718,5 @@
   ],
   "datatypes": [],
   "parents": [],
-  "documentroot": "/CPSV-AP/releases/3.2.0/"
+  "documentroot": "/D4WTA-AP/releases/3.2.0/"
 }

@@ -97,7 +97,7 @@
     "editorDocumentroot": "https://semiceu.github.io/uri.semic.eu-generated/CPSV-AP/releases/3.2.0",
     "statuslabel": "SEMIC Candidate Recommendation"
   },
-  "dummy": "7",
+  "dummy": "8",
   "eap": "Data4Wallonia.eap",
   "editors": [
     {
@@ -1701,7 +1701,7 @@
   "standaardregisterurl": "https://github.com/SEMICeu/CPSV-AP/blob/master/releases/3.2.0/Changelog.md",
   "template": "d4wta-ap_en.j2",
   "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
-  "toolchaincommit": "755ca4c97d25d963468c9be98fd51439f7694152",
+  "toolchaincommit": "e88df729ee0dd4f6a7142f8bf6f438eb8c19b7f2",
   "toolchainversion": "3",
   "translation": [
     {
@@ -1713,6 +1713,6 @@
     }
   ],
   "type": "ap",
-  "urlref": "/CPSV-AP/releases/3.2.0/",
+  "urlref": "/D4WTA-AP/releases/3.2.0/",
   "versionurl": "https://github.com/SEMICeu/CPSV-AP/tree/master/releases/3.2.0"
 }

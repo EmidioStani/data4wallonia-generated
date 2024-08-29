@@ -79,14 +79,14 @@
   "@id": "https://data.europa.eu/m8g",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "label": {
-    "nl": "cpsv-ap",
-    "en": "cpsv-ap"
+    "nl": "d4wta-ap",
+    "en": "d4wta-ap"
   },
   "baseURI": "https://data.europa.eu/m8g/",
   "issued": "TODO",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "extra": {
-    "EA-Name": "ISA Core Vocabularies",
+    "EA-Name": "Data4Wallonia",
     "EA-Guid": "{7A28E3BF-AB15-430f-9039-691F06A10F1B}",
     "baseURI": "https://data.europa.eu/m8g/",
     "issued": "TODO",
@@ -1659,17 +1659,17 @@
       "maxCardinality": "*"
     }
   ],
-  "name": "cpsv-ap",
+  "name": "d4wta-ap",
   "type": "ap",
   "eap": "Data4Wallonia.eap",
-  "diagram": "Data4Wallonia",
-  "template": "cpsv-ap_en.j2",
-  "title": "Core Public Service Vocabulary Application Profile (CPSV-AP)",
-  "publication-state": "SEMIC Recommendation",
-  "publication-date": "2024-05-06",
+  "diagram": "Taxonomy",
+  "template": "d4wta-ap_en.j2",
+  "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
+  "publication-state": "Draft",
+  "publication-date": "2024-08-29",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "CPSV-AP",
-  "site": "site-skeleton/cpsv-ap",
+  "site": "site-skeleton/d4wta-ap",
   "repourl": "https://github.com/SEMICeu/CPSV-AP/tree/master/releases/3.2.0",
   "versionurl": "https://github.com/SEMICeu/CPSV-AP/tree/master/releases/3.2.0",
   "feedbackurl": "https://github.com/SEMICeu/CPSV-AP/issues",
@@ -1677,10 +1677,10 @@
   "translation": [
     {
       "language": "en",
-      "template": "cpsv-ap_en.j2",
-      "title": "Core Public Service Vocabulary Application Profile (CPSV-AP)",
-      "translationjson": "cpsv-ap_en.json",
-      "mergefile": "cpsv-ap_en_merged.jsonld"
+      "template": "d4wta-ap_en.j2",
+      "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
+      "translationjson": "d4wta-ap_en.json",
+      "mergefile": "d4wta-ap_en_merged.jsonld"
     }
   ],
   "toolchainversion": "3",
@@ -1690,14 +1690,14 @@
   },
   "config": "config/config-ap.json",
   "branchtag": "ReSpecCV",
-  "dummy": "6",
+  "dummy": "8",
   "filename": "config/data4wallonia.json",
   "navigation": {
     "prev": "https://semiceu.github.io/CPSV-AP/releases/3.2.0/"
   },
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
-  "urlref": "/CPSV-AP/releases/3.2.0/",
-  "documentcommit": "f8ab8593d403b24ef872f1b19c700ec14cf0b363",
-  "toolchaincommit": "bee0ced4d0c55e1fa07022867c073fa0e0a3db4d",
+  "urlref": "/D4WTA-AP/releases/3.2.0/",
+  "documentcommit": "58613ca1ab4a269baddf82d0da2abb074bb8fa43",
+  "toolchaincommit": "e88df729ee0dd4f6a7142f8bf6f438eb8c19b7f2",
   "hostname": "https://EmidioStani.github.io"
 }
