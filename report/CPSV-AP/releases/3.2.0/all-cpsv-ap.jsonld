@@ -1661,7 +1661,7 @@
   ],
   "name": "cpsv-ap",
   "type": "ap",
-  "eap": "CPSV-AP.eap",
+  "eap": "Data4Wallonia.eap",
   "diagram": "Data4Wallonia",
   "template": "cpsv-ap_en.j2",
   "title": "Core Public Service Vocabulary Application Profile (CPSV-AP)",
@@ -1690,14 +1690,14 @@
   },
   "config": "config/config-ap.json",
   "branchtag": "ReSpecCV",
-  "dummy": "5",
-  "filename": "config/cpsv-ap.json",
+  "dummy": "6",
+  "filename": "config/data4wallonia.json",
   "navigation": {
     "prev": "https://semiceu.github.io/CPSV-AP/releases/3.2.0/"
   },
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
   "urlref": "/CPSV-AP/releases/3.2.0/",
-  "documentcommit": "817228468ff98fcb1d84dbb2fcf49c331d992a8f",
-  "toolchaincommit": "d9aad11fe52262df44d418dfbee0438f34e969d3",
+  "documentcommit": "f8ab8593d403b24ef872f1b19c700ec14cf0b363",
+  "toolchaincommit": "bee0ced4d0c55e1fa07022867c073fa0e0a3db4d",
   "hostname": "https://EmidioStani.github.io"
 }

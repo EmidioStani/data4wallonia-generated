@@ -92,13 +92,13 @@
   "contributors-column": "CPSV-AP",
   "contributors-file": "stakeholders.csv",
   "diagram": "Data4Wallonia",
-  "documentcommit": "817228468ff98fcb1d84dbb2fcf49c331d992a8f",
+  "documentcommit": "f8ab8593d403b24ef872f1b19c700ec14cf0b363",
   "documentconfig": {
     "editorDocumentroot": "https://semiceu.github.io/uri.semic.eu-generated/CPSV-AP/releases/3.2.0",
     "statuslabel": "SEMIC Candidate Recommendation"
   },
-  "dummy": "5",
-  "eap": "CPSV-AP.eap",
+  "dummy": "6",
+  "eap": "Data4Wallonia.eap",
   "editors": [
     {
       "@type": "foaf:Person",
@@ -1680,7 +1680,7 @@
     "license": "TODO"
   },
   "feedbackurl": "https://github.com/SEMICeu/CPSV-AP/issues",
-  "filename": "config/cpsv-ap.json",
+  "filename": "config/data4wallonia.json",
   "hostname": "https://EmidioStani.github.io",
   "issued": "TODO",
   "label": {
@@ -1701,7 +1701,7 @@
   "standaardregisterurl": "https://github.com/SEMICeu/CPSV-AP/blob/master/releases/3.2.0/Changelog.md",
   "template": "cpsv-ap_en.j2",
   "title": "Core Public Service Vocabulary Application Profile (CPSV-AP)",
-  "toolchaincommit": "d9aad11fe52262df44d418dfbee0438f34e969d3",
+  "toolchaincommit": "bee0ced4d0c55e1fa07022867c073fa0e0a3db4d",
   "toolchainversion": "3",
   "translation": [
     {
