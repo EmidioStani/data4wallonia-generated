@@ -7,7 +7,7 @@
     
 	
     <meta charset="utf-8" />
-    <title>Core Public Service Vocabulary Application Profile (CPSV-AP)</title>
+    <title>Data4Wallonia Taxonomy Application Profile (D4WTA-AP)</title>
     <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
     <script class="remove">
     // All config options at https://respec.org/docs/
@@ -119,7 +119,7 @@
 	function quickreference() {
 		$('#table-quickoverview').DataTable();
 	};
-	var shaclfilepath = "./shacl/cpsv-ap-SHACL.ttl" ;
+	var shaclfilepath = "./shacl/d4wta-ap-SHACL.ttl" ;
 
    
 
@@ -128,11 +128,11 @@
       edDraftURI: "https://EmidioStani.github.io/CPSV-AP/releases/3.2.0/",
       latestVersion: "https://semiceu.github.io/CPSV-AP/releases/3.2.0/",
       specStatus: "LD",
-      publishDate: "2024-05-06",
+      publishDate: "2024-08-29",
       editors: myeditors,
       authors: myauthors,
       github: "SEMICeu/CPSV-AP",
-      shortName: "Core Public Service Vocabulary Application Profile (CPSV-AP)",
+      shortName: "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
       xref: "web-platform",
       doJsonLd: true,
       logos: [{
@@ -263,7 +263,7 @@ CPSV-AP provides a minimal common basis within Europe to describe public service
 <section id="specstatus">
     <h2>Status</h2>
         <p>
-            This Application Profile has the status SEMIC Candidate Recommendation published at 2024-05-06.
+            This Application Profile has the status SEMIC Candidate Recommendation published at 2024-08-29.
         </p>
         <p>
             Information about the process and the decisions involved in the creation of this specification are consultable at the <a href="https://github.com/SEMICeu/CPSV-AP/blob/master/releases/3.2.0/Changelog.md">Changelog</a>.
@@ -1192,8 +1192,8 @@ They are included in the Application Profile because they form the range of prop
          (non normative)
         
             <p>
-                A reusable JSON-LD context definition for this Core Vocabulary is retrievable at: <a href="/CPSV-AP/releases/3.2.0//context/cpsv-ap.jsonld"
-    target="_blank">/CPSV-AP/releases/3.2.0//context/cpsv-ap.jsonld</a>
+                A reusable JSON-LD context definition for this Core Vocabulary is retrievable at: <a href="/CPSV-AP/releases/3.2.0//context/d4wta-ap.jsonld"
+    target="_blank">/CPSV-AP/releases/3.2.0//context/d4wta-ap.jsonld</a>
             </p>
         
     </div>
@@ -1206,8 +1206,8 @@ They are included in the Application Profile because they form the range of prop
          (non normative)
         
             <p>
-                A reusable SHACL template for this Core Vocabulary is retrievable at: <a href="/CPSV-AP/releases/3.2.0//shacl/cpsv-ap-SHACL.ttl"
-    target="_blank">/CPSV-AP/releases/3.2.0//shacl/cpsv-ap-SHACL.ttl</a>
+                A reusable SHACL template for this Core Vocabulary is retrievable at: <a href="/CPSV-AP/releases/3.2.0//shacl/d4wta-ap-SHACL.ttl"
+    target="_blank">/CPSV-AP/releases/3.2.0//shacl/d4wta-ap-SHACL.ttl</a>
             </p>
         
     </div>
@@ -1228,24 +1228,24 @@ They are included in the Application Profile because they form the range of prop
     <section class="informative">
   <h2>Support for implementation</h2>
 
-The following section provides support for implementing the Core Public Service Vocabulary Application Profile (CPSV-AP).
+The following section provides support for implementing the Data4Wallonia Taxonomy Application Profile (D4WTA-AP).
 <p/>
 
 <h3>JSON-LD context file</h3>
 
 One common technical question is the format in which the data is being exchanged. 
-For conformance with the Core Public Service Vocabulary Application Profile (CPSV-AP), it is not mandatory that this happens in a RDF serialisation, but the exhanged format SHOULD be unambiguously be transformable into RDF.
-For the format JSON, a popular format to exchange data between systems, SEMIC provides a <a href="./context/cpsv-ap.jsonld">JSON-LD context file</a>. 
+For conformance with the Data4Wallonia Taxonomy Application Profile (D4WTA-AP), it is not mandatory that this happens in a RDF serialisation, but the exhanged format SHOULD be unambiguously be transformable into RDF.
+For the format JSON, a popular format to exchange data between systems, SEMIC provides a <a href="./context/d4wta-ap.jsonld">JSON-LD context file</a>. 
 JSON-LD is a W3C Recommendation [[[json-ld11]]] that provided a standard approach to interpret JSON structures as RDF.
 The provided JSON-LD context file can be used by implementers.
 This JSON-LD context is not normative, i.e. other JSON-LD contexts are allowed.
 <p/>
-The JSON-LD context file downloadable <a href="./context/cpsv-ap.jsonld">here</a>.
+The JSON-LD context file downloadable <a href="./context/d4wta-ap.jsonld">here</a>.
 <p/>
 
 <h3>Validation</h3>
 
-To verify if the data is (technically) conformant to the Core Public Service Vocabulary Application Profile (CPSV-AP), the exchanged data can be validated using the provided SHACL shapes. 
+To verify if the data is (technically) conformant to the Data4Wallonia Taxonomy Application Profile (D4WTA-AP), the exchanged data can be validated using the provided SHACL shapes. 
 SHACL is a W3C Recommendation to express constraints on a RDF knowledge graph. 
 <p/>
 To support the check whether or not a catalogue satisfies the expressed constraints in this Application Profile, the constraints in this specification are expressed using SHACL [[shacl]].
@@ -1255,13 +1255,13 @@ As such this collection of SHACL expressions that can be used to build a validat
 It is up to the implementers to define the validation they expect.
 Each implementation happens within a context, and that context is beyond the SHACL expressions here.
 <p/>
-The shapes can be found <a href="./shacl/cpsv-ap-SHACL.ttl">here</a>.
+The shapes can be found <a href="./shacl/d4wta-ap-SHACL.ttl">here</a>.
 
 <h3>RDF representation</h3>
-The RDF representation of the Core Public Service Vocabulary Application Profile (CPSV-AP) is available <a href="./rdf/cpsv-ap.ttl">here</a>.
+The RDF representation of the Data4Wallonia Taxonomy Application Profile (D4WTA-AP) is available <a href="./rdf/d4wta-ap.ttl">here</a>.
 
 <h3>UML representation</h3>
-The UML representation from which the Core Public Service Vocabulary Application Profile (CPSV-AP) has been build is available <a href="./UML">here</a>.
+The UML representation from which the Data4Wallonia Taxonomy Application Profile (D4WTA-AP) has been build is available <a href="./UML">here</a>.
 
 <!--
 <h3>Mapping</h3>

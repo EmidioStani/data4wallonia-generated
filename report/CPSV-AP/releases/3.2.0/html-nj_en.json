@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Core Public Service Vocabulary Application Profile (CPSV-AP)",
+    "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
     "uri": "https://data.europa.eu/m8g",
-    "issued": "2024-05-06",
+    "issued": "2024-08-29",
     "baseURI": "https://data.europa.eu/m8g/",
-    "filename": "cpsv-ap",
+    "filename": "d4wta-ap",
     "navigation": {
       "prev": "https://semiceu.github.io/CPSV-AP/releases/3.2.0/",
       "self": "https://EmidioStani.github.io/CPSV-AP/releases/3.2.0/"
@@ -15,10 +15,10 @@
       "editorDocumentroot": "https://semiceu.github.io/uri.semic.eu-generated/CPSV-AP/releases/3.2.0",
       "statuslabel": "SEMIC Candidate Recommendation"
     },
-    "status": "SEMIC Recommendation",
+    "status": "Draft",
     "statuslabel": "Onbekend",
-    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/f8ab8593d403b24ef872f1b19c700ec14cf0b363",
-    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/f8ab8593d403b24ef872f1b19c700ec14cf0b363/CHANGELOG",
+    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/58613ca1ab4a269baddf82d0da2abb074bb8fa43",
+    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/58613ca1ab4a269baddf82d0da2abb074bb8fa43/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CPSV-AP/issues",
     "standaardregisterurl": "https://github.com/SEMICeu/CPSV-AP/blob/master/releases/3.2.0/Changelog.md",
     "usesVocs": [],
