@@ -3,27 +3,132 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-20:46:08 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-20:46:08 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Data4Wallonia.DataTypes".
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.Data4Wallonia.DataTypes
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Data4Wallonia.DataTypes:Code, Model.Data4Wallonia.skos:Concept
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/Location): Model.Data4Wallonia.dct:Location, Model.Data4Wallonia.dct:Location
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.Data4Wallonia.cv:Output:description, Model.Data4Wallonia.cpsv:PublicService:description, Model.Data4Wallonia.cv:Channel:description, Model.Data4Wallonia.cv:ServiceConcessionContract:description, Model.Data4Wallonia.cv:Cost:description, Model.Data4Wallonia.dcat:Dataset:description, Model.Data4Wallonia.cpsv:Rule:description, Model.Data4Wallonia.time:TemporalEntity:description, Model.Data4Wallonia.cv:Evidence:description, Model.Data4Wallonia.cv:Participation:description, Model.Data4Wallonia.cv:Event:description
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.Data4Wallonia.cv:Evidence:identifier, Model.Data4Wallonia.cv:Requirement:identifier, Model.Data4Wallonia.cpsv:PublicService:identifier, Model.Data4Wallonia.cv:Event:identifier, Model.Data4Wallonia.foaf:Agent:identifier, Model.Data4Wallonia.cpsv:Rule:identifier, Model.Data4Wallonia.cv:ServiceConcessionContract:identifier, Model.Data4Wallonia.cv:Participation:identifier, Model.Data4Wallonia.cv:Cost:identifier, Model.Data4Wallonia.cv:EvidenceType:identifier, Model.Data4Wallonia.cv:Channel:identifier, Model.Data4Wallonia.cv:Output:identifier, Model.Data4Wallonia.dcat:Dataset:identifier
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.Data4Wallonia.cpsv:Rule:language, Model.Data4Wallonia.cpsv:PublicService:language, Model.Data4Wallonia.cv:Output:language, Model.Data4Wallonia.cv:Evidence:language
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/processingTime): Model.Data4Wallonia.cpsv:PublicService:processingTime, Model.Data4Wallonia.cv:Channel:processingTime
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.Data4Wallonia.cpsv:PublicService:functionsOfGovernment, Model.Data4Wallonia.cv:Output:type, Model.Data4Wallonia.cpsv:Rule:type, Model.Data4Wallonia.cv:LifeEvent:type, Model.Data4Wallonia.cv:Requirement:type, Model.Data4Wallonia.cv:BusinessEvent:type, Model.Data4Wallonia.cv:Evidence:type, Model.Data4Wallonia.cv:Channel:type
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.Data4Wallonia.foaf:Agent:name, Model.Data4Wallonia.cv:Output:name, Model.Data4Wallonia.cv:Evidence:name, Model.Data4Wallonia.cpsv:Rule:name, Model.Data4Wallonia.cv:ServiceConcessionContract:name, Model.Data4Wallonia.cv:Requirement:name, Model.Data4Wallonia.cv:Event:name, Model.Data4Wallonia.dcat:Dataset:title, Model.Data4Wallonia.cpsv:PublicService:name
-20:46:08 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.Data4Wallonia.cv:PublicOrganisation:spatial, Model.Data4Wallonia.cpsv:PublicService:spatial
-20:46:08 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Data4Wallonia".
-20:46:08 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Data4Wallonia".
-20:46:08 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Data4Wallonia".
-20:46:08 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Data4Wallonia".
-20:46:08 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PublicService" .
-20:46:08 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.cpsv:PublicService:(PublicService -> PublicService)" belongs to package "cpsv" based on source and target definition.
-20:46:08 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.cpsv:PublicService:(PublicService -> PublicService)" does not have a name, it will be ignored.
-20:46:08 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.cpsv:PublicService:related" belongs to package "cpsv" based on source and target definition.
-20:46:08 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.cpsv:PublicService:(PublicService -> PublicService)" belongs to package "cpsv" based on source and target definition.
-20:46:08 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.cpsv:PublicService:(PublicService -> PublicService)" does not have a name, it will be ignored.
-20:46:08 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.cpsv:PublicService:requires" belongs to package "cpsv" based on source and target definition.
-20:46:08 WARN  c.g.i.o.c.Converter - Ambiguous data type "Location" for attribute "Model.Data4Wallonia.cpsv:PublicService:spatial": Model.Data4Wallonia.dct:Location, Model.Data4Wallonia.dct:Location.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Data4Wallonia.DataTypes".
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Data4Wallonia.DataTypes, Model
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/Location): Model.Data4Wallonia.dct:Location, Model.Data4Wallonia.dct:Location
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Data4Wallonia.DataTypes:Code, Model.Data4Wallonia.skos:Concept
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2001/XMLSchema#double): Model.Data4Wallonia.DataTypes:Double, Model.Data4Wallonia.DataTypes:String, Model.Data4Wallonia.DataTypes:Date
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.Data4Wallonia.cv:Participation:description, Model.Data4Wallonia.cv:Channel:description, Model.Data4Wallonia.cv:ServiceConcessionContract:description, Model.Data4Wallonia.cpsv:Rule:description, Model.Data4Wallonia.cv:Output:description, Model.Data4Wallonia.cv:Cost:description, Model.Data4Wallonia.cv:Evidence:description, Model.Data4Wallonia.time:TemporalEntity:description, Model.Data4Wallonia.cv:Event:description, Model.Data4Wallonia.dcat:Dataset:description, Model.Data4Wallonia.cpsv:PublicService:description
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.Data4Wallonia.cv:Requirement:name, Model.Data4Wallonia.cpsv:PublicService:name, Model.Data4Wallonia.foaf:Agent:name, Model.Data4Wallonia.cv:Output:name, Model.Data4Wallonia.cpsv:Rule:name, Model.Data4Wallonia.cv:ServiceConcessionContract:name, Model.Data4Wallonia.cv:Event:name, Model.Data4Wallonia.cv:Evidence:name, Model.Data4Wallonia.dcat:Dataset:title
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.Data4Wallonia.cpsv:PublicService:functionsOfGovernment, Model.Data4Wallonia.cv:Evidence:type, Model.Data4Wallonia.cv:Output:type, Model.Data4Wallonia.cv:Requirement:type, Model.Data4Wallonia.cv:Channel:type, Model.Data4Wallonia.cpsv:Rule:type, Model.Data4Wallonia.cv:LifeEvent:type, Model.Data4Wallonia.cv:BusinessEvent:type
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.Data4Wallonia.foaf:Agent:identifier, Model.Data4Wallonia.cv:ServiceConcessionContract:identifier, Model.Data4Wallonia.cv:Cost:identifier, Model.Data4Wallonia.cv:EvidenceType:identifier, Model.Data4Wallonia.cv:Channel:identifier, Model.Data4Wallonia.dcat:Dataset:identifier, Model.Data4Wallonia.cv:Requirement:identifier, Model.Data4Wallonia.cpsv:PublicService:identifier, Model.Data4Wallonia.cv:Event:identifier, Model.Data4Wallonia.cv:Participation:identifier, Model.Data4Wallonia.cv:Evidence:identifier, Model.Data4Wallonia.cpsv:Rule:identifier, Model.Data4Wallonia.cv:Output:identifier
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.Data4Wallonia.cv:PublicOrganisation:spatial, Model.Data4Wallonia.cpsv:PublicService:spatial
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2004/02/skos/core#versionInfo): Model.Data4Wallonia.skos:Concept:versionInfo, Model.Data4Wallonia.skos:ConceptScheme:versionInfo
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.Data4Wallonia.cpsv:PublicService:language, Model.Data4Wallonia.cpsv:Rule:language, Model.Data4Wallonia.cv:Evidence:language, Model.Data4Wallonia.cv:Output:language
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2004/02/skos/core#prefLabel): Model.Data4Wallonia.skos:Concept:prefLabel, Model.Data4Wallonia.cv:PublicOrganisation:preferredLabel, Model.Data4Wallonia.skos:ConceptScheme:prefLabel
+12:57:34 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/processingTime): Model.Data4Wallonia.cpsv:PublicService:processingTime, Model.Data4Wallonia.cv:Channel:processingTime
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Data4Wallonia".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Data4Wallonia".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Data4Wallonia".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Data4Wallonia".
+12:57:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Concept" .
+12:57:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ConceptScheme" .
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class ConceptScheme without label, further processing this class will be incoherent
+12:57:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Date" .
+12:57:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "String" .
+12:57:34 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Text" .
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:topConceptOf" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:topConceptOf".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:topConceptOf".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:topConceptOf".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property topConceptOf without name, further processing this property will be incoherent
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:ConceptScheme:hasTopConcept" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:hasTopConcept".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:hasTopConcept".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:hasTopConcept".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property hasTopConcept without name, further processing this property will be incoherent
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" does not have a name, it will be ignored.
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:broader" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:broader".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:broader".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:broader".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property broader without name, further processing this property will be incoherent
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:ConceptScheme:isReplacedBy" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:isReplacedBy".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:isReplacedBy".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:isReplacedBy".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property isReplacedBy without name, further processing this property will be incoherent
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:ConceptScheme:replaces" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:replaces".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:replaces".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:replaces".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property replaces without name, further processing this property will be incoherent
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> ConceptScheme)" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> ConceptScheme)" does not have a name, it will be ignored.
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:inScheme" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:inScheme".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:inScheme".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:inScheme".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property inScheme without name, further processing this property will be incoherent
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" does not have a name, it will be ignored.
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:status" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:status".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:status".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:status".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property status without name, further processing this property will be incoherent
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" does not have a name, it will be ignored.
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:isReplacedBy" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:isReplacedBy".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:isReplacedBy".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:isReplacedBy".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property isReplacedBy without name, further processing this property will be incoherent
+12:57:34 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:replaces" belongs to package "skos" based on source and target definition.
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:replaces".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:replaces".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:replaces".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property replaces without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:prefLabel".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:prefLabel".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:prefLabel".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property prefLabel without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:versionInfo".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:versionInfo".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:versionInfo".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property versionInfo without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:definition".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:definition".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:definition".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property definition without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:altLabel".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:altLabel".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:Concept:altLabel".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property altLabel without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:prefLabel".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:prefLabel".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:prefLabel".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property prefLabel without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:versionInfo".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:versionInfo".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:versionInfo".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property versionInfo without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:identifier".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:identifier".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:identifier".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property identifier without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:title".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:title".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:title".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property title without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:created".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:created".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:created".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property created without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:modified".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:modified".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:modified".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property modified without name, further processing this property will be incoherent
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:issued".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:issued".
+12:57:34 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Data4Wallonia.skos:ConceptScheme:issued".
+12:57:34 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property issued without name, further processing this property will be incoherent

@@ -4,24 +4,6 @@ start reading
 en
 done
 start processing
-make shacl using individual mode
-https://EmidioStani.github.io/D4WTA-AP/releases/3.2.0/#PublicServiceShape
-add nodeKind constraint
-add uniqueLanguage constraint
-add nodeKind constraint
-add nodeKind constraint
-add nodeKind constraint
-add uniqueLanguage constraint
-add nodeKind constraint
-add nodeKind constraint
-add uniqueLanguage constraint
-add nodeKind constraint
-add nodeKind constraint
-add nodeKind constraint
-add nodeKind constraint
-add nodeKind constraint
-add nodeKind constraint
-add nodeKind constraint
-add nodeKind constraint
-start writing
-Write complete, file saved to: /tmp/workspace/target/D4WTA-AP/releases/3.2.0//shacl/d4wta-ap-SHACL_en.jsonld
+TypeError: Cannot read property 'en' of undefined
+    at labelclasses (/app/shacl-generator2.js:760:65)
+    at /app/shacl-generator2.js:52:17

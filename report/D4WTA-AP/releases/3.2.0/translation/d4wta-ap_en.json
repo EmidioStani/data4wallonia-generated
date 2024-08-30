@@ -4,186 +4,133 @@
   "properties": [],
   "externals": [
     {
-      "EA-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-      "name": "PublicService",
+      "EA-Guid": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+      "name": "Text",
       "label": {
-        "en": "Public Service"
+        "en": "Text"
       },
       "definition": {
-        "en": "A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organisation, publicly funded and arise from public policy."
+        "en": "The text data type is a combination of a string and a language identifier."
+      }
+    },
+    {
+      "EA-Guid": "{93158274-550F-43bf-BCA2-D8C45A3A7D70}",
+      "name": "Double",
+      "label": {
+        "en": "Double"
+      },
+      "definition": {
+        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+      }
+    },
+    {
+      "EA-Guid": "{1ABBF0E3-EEB0-4941-916E-6EE68AF8D8DC}",
+      "name": "Double",
+      "label": {
+        "en": "Double"
+      },
+      "definition": {
+        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+      }
+    },
+    {
+      "EA-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+      "name": "Concept",
+      "label": {
+        "en": "Concept"
+      },
+      "definition": {
+        "en": "This class represents any concept that can be used for classifying the Public Service and which relates to the Public Service through the property Is Classified By."
       },
       "usage": {
-        "en": "This class represents the Public Service itself, as it is described in a public service catalogue. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of <a href=\"https://ec.europa.eu/isa2/eif_en/\">the European Interoperability Framework</a>, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations."
+        "en": "This class has been added in the CPSV-AP to complement the need for adding other ways of classifying the Public Service, which have not been explicitly defined in the CPSV-AP. In this context, the CPSV-AP reuses the Concept class as defined in <a href=\"https://www.w3.org/2004/02/skos/\">the SKOS Simple Knowledge Organization System</a>. For describing the attributes of a Concept (labels, preferred labels, alternative labels, definition, etc.) we refer to <a href=\"https://www.w3.org/2004/02/skos/\">SKOS</a>. The Concept may or may not belong to (member) a certain Collection."
       }
+    },
+    {
+      "EA-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+      "name": ""
     }
   ],
   "externalproperties": [
     {
-      "EA-Guid": "{F99D9E09-5EB9-4c02-A5C5-7A65DD287FF6}",
-      "name": "processingTime",
-      "label": {
-        "en": "processing time"
-      },
-      "definition": {
-        "en": "The (estimated) time needed for executing a Public Service. The actual information is provided using the ISO8601 syntax for durations. "
-      },
-      "usage": {
-        "en": "The actual information is provided using the <a href=\"https://www.iso.org/standard/70907.html\">ISO8601</a> syntax for durations. \r\n<br/><br/>\r\nSome examples are provided below:<br/>\r\nDuration Syntax - Syntax<br/>\r\n5 years - P5Y<br/>\r\n1 month - P1M<br/>\r\n3 days - P3D<br/>\r\n2 days 4 hours - P2DT4H\r\n<br/><br/>\r\nDurations begin with an uppercase P followed by the number and the relevant designator, formally: P[n]Y[n]M[n]DT[n]H[n]M[n]S, where Y is for years, M for months etc. \r\n<br/><br/>\r\nNote that days and times are separated by an uppercase T which also\r\ndisambiguates M as meaning month (P2M means 2 months) or minute (PT2M means 2 minutes). Durations may also be defined as a number of weeks so P4W means 4 weeks. A full explanation is provided in the <a href=\"https://en.wikipedia.org/wiki/ISO_8601#Durations\">Wikipedia page</a> that references the official <a href=\"https://www.iso.org/standard/70907.html\">ISO standard</a>.\r\n<br/><br/>\r\nThis approach is consistent with both <a href=\"https://schema.org/\">schema.org</a> and the <a href=\"https://www.w3.org/TR/owl-time/\">W3C OWL Time Ontology.<a/>\r\n"
-      }
+      "EA-Guid": "{75B52B56-3CF6-470b-B01B-B860F04EA77A}",
+      "name": ""
     },
     {
-      "EA-Guid": "{3843BBCD-1D6E-4c43-B34B-429631D41CB2}",
-      "name": "relatedService",
-      "label": {
-        "en": "related service"
-      },
-      "definition": {
-        "en": "A Public Service related to the particular instance of the Public Service class."
-      }
+      "EA-Guid": "{0D22C4F7-7212-41f6-9F1D-F9B1C0856532}",
+      "name": ""
     },
     {
-      "EA-Guid": "{8F61A18D-3566-446b-B265-0B0B022B7345}",
-      "name": "sector",
-      "label": {
-        "en": "sector"
-      },
-      "definition": {
-        "en": "The industry or sector a Public Service relates to, or is intended for."
-      },
-      "usage": {
-        "en": "For example: environment, safety, housing. Note that a single Public Service may relate to multiple sectors. The possible values for this property are provided as a controlled vocabulary. The possible values for this property are described in the controlled vocabulary <a href=\" https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme\">Data theme</a> Authority Table of the Publications Office. "
-      }
+      "EA-Guid": "{EDAB342F-9FAF-478b-BBF3-69733E82D110}",
+      "name": ""
     },
     {
-      "EA-Guid": "{9A274FDC-884B-4f0a-8900-41964DE10AA7}",
-      "name": "thematicArea",
-      "label": {
-        "en": "thematic area"
-      },
-      "definition": {
-        "en": "The Thematic Area of a Public Service."
-      },
-      "usage": {
-        "en": "For example: social protection, health, recreation, culture and religion, family, traveling economic affairs, tax, staff, environment, etc."
-      }
+      "EA-Guid": "{5E2EEC1C-F038-4658-B95E-382254A8DB0F}",
+      "name": ""
     },
     {
-      "EA-Guid": "{430C2232-35C5-4a16-80EB-7897BE96C569}",
-      "name": "addressee",
-      "label": {
-        "en": "addressee"
-      },
-      "definition": {
-        "en": "The target recipient of the Public Service."
-      },
-      "usage": {
-        "en": "Examples are citizens, business, etc."
-      }
+      "EA-Guid": "{6F847E1E-CF9D-404f-92C4-1F96FA259F38}",
+      "name": ""
     },
     {
-      "EA-Guid": "{F42F25CF-BC65-4689-81D8-86C1EF81A54E}",
-      "name": "description",
-      "label": {
-        "en": "description"
-      },
-      "definition": {
-        "en": "A free text Description of the Public Service."
-      },
-      "usage": {
-        "en": "The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
-      }
+      "EA-Guid": "{F2D62A33-4ABC-4780-9209-28295D732035}",
+      "name": ""
     },
     {
-      "EA-Guid": "{6AFD1AA9-61EF-4292-A50F-ABB535659710}",
-      "name": "identifier",
-      "label": {
-        "en": "identifier"
-      },
-      "definition": {
-        "en": "A formally-issued Identifier for the Public Service."
-      }
+      "EA-Guid": "{02DA6AB5-4367-4372-A7FE-FB793FC53F95}",
+      "name": ""
     },
     {
-      "EA-Guid": "{15E8B949-A84E-47b0-890F-0E28DE7AB66B}",
-      "name": "language",
-      "label": {
-        "en": "language"
-      },
-      "definition": {
-        "en": "The language(s) in which the Public Service is available."
-      },
-      "usage": {
-        "en": "This could be one language or multiple languages, for instance in countries with more than one official language.\r\n\r\nThe recommended controlled vocabularies for this property is the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language\">Language</a> Authority Table of the Publications Office."
-      }
+      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
+      "name": ""
     },
     {
-      "EA-Guid": "{BC13F0D5-DCD9-4039-B4EB-C57B19B32A4C}",
-      "name": "requires",
-      "label": {
-        "en": "requires"
-      },
-      "definition": {
-        "en": "The way a Public Service makes use of other Public Services."
-      },
-      "usage": {
-        "en": "One Public Service may require, or in some way make use of, the output of one or several other Public Services. In this case, for a Public Service to be executed, another Public Service must be executed beforehand. The nature of the requirement will be described in the associated Rule or Evidence."
-      }
+      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+      "name": ""
     },
     {
-      "EA-Guid": "{138DCDCE-4C4B-4f4c-92AC-18336D5E88EB}",
-      "name": "spatial",
-      "label": {
-        "en": "spatial"
-      },
-      "definition": {
-        "en": "A Public Service is likely to be available only within a given area, typically the area covered by a particular public authority."
-      },
-      "usage": {
-        "en": "A common usage of the spatial property will be to define the Administrative Territorial Unit(s) - typically a country or region - in which a Public Service is available. The Publications Office of the European Union offers <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/atu\">a URI set</a> that is suitable for this purpose. In case the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/atu\">ATU code list</a> is not suitable, <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/nuts\">NUTS</a> or <a href=\"https://ec.europa.eu/eurostat/web/nuts/local-administrative-units\">LAU</a>, <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/place\">NAL Place</a> or <a href=\"http://www.geonames.org\">Geonames</a> are recommended to use, in that order. If those are still not sufficient, we recommend to define your own code list.\r\n\r\nN.B. The spatial restriction is not meant to be used to describe eligibility or the speed of operation of the service. These aspects will be covered by the <a href=\"http://data.europa.eu/m8g/Criterion\">Criterion class</a>."
-      }
+      "EA-Guid": "{6A544626-8EA2-46cd-9A3E-BC5D8960B4C5}",
+      "name": ""
     },
     {
-      "EA-Guid": "{D6E8F03C-7B49-4b9c-A607-CBAED050D42B}",
-      "name": "name",
-      "label": {
-        "en": "name"
-      },
-      "definition": {
-        "en": "The official Name of the Public Service."
-      }
+      "EA-Guid": "{4E65B314-7B57-4cfc-9C04-BE99D6A6A2B2}",
+      "name": ""
     },
     {
-      "EA-Guid": "{FB2B769F-03A4-4a2f-A658-48E76A292FA7}",
-      "name": "functionsOfGovernment",
-      "label": {
-        "en": "functions of government"
-      },
-      "definition": {
-        "en": "The purpose of a government activity, which the public service is intended for."
-      },
-      "usage": {
-        "en": "The possible values for this property are described in the controlled vocabulary <a href=\" https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/main-activity\">COFOG main activity</a> Authority Table of the Publications Office. "
-      }
+      "EA-Guid": "{C92D2027-FAA8-4045-9274-07936B7E3EF5}",
+      "name": ""
     },
     {
-      "EA-Guid": "{5564FDC3-EA77-4633-9C37-E01A21A70F78}",
-      "name": "status",
-      "label": {
-        "en": "status"
-      },
-      "definition": {
-        "en": "It indicates whether a Public Service is active, inactive, under development etc. according to a controlled vocabulary."
-      }
+      "EA-Guid": "{10E1C399-1A32-4c0a-A0EA-5A3DBEC32025}",
+      "name": ""
     },
     {
-      "EA-Guid": "{BCF48689-663E-49c3-9598-A057022FCCBC}",
-      "name": "keyword",
-      "label": {
-        "en": "keyword"
-      },
-      "definition": {
-        "en": "A keyword, term or phrase to describe the Public Service."
-      }
+      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{9B55DCF5-7984-4c3b-A31D-B4593D3B4922}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{C70599F6-217C-4c9e-B0D2-EA72E66A126D}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{6F847E1E-CF9D-404f-92C4-1F96FA259F38}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{2F0642B8-6DD5-4685-86FB-2B506E7C84D3}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{DABA4091-A92A-4443-8230-9B90173A923C}",
+      "name": ""
     }
   ]
 }

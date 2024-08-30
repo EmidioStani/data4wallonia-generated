@@ -168,634 +168,311 @@
   "properties": [],
   "externals": [
     {
-      "@id": "http://purl.org/vocab/cpsv#PublicService",
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organisation, publicly funded and arise from public policy."
-      },
-      "ap-usageNote-en": {
-        "en": "This class represents the Public Service itself, as it is described in a public service catalogue. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of <a href=\"https://ec.europa.eu/isa2/eif_en/\">the European Interoperability Framework</a>, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations."
-      },
-      "usage": {
-        "en": "This class represents the Public Service itself, as it is described in a public service catalogue. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of <a href=\"https://ec.europa.eu/isa2/eif_en/\">the European Interoperability Framework</a>, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations."
+        "en": "The text data type is a combination of a string and a language identifier."
       },
       "ap-label-en": {
-        "en": "Public Service"
+        "en": "Text"
       },
       "definition": {
-        "en": "A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organisation, publicly funded and arise from public policy."
+        "en": "The text data type is a combination of a string and a language identifier."
       },
       "label": {
-        "en": "Public Service"
+        "en": "Text"
       },
       "extra": {
-        "EA-Name": "PublicService",
-        "EA-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Package": "cpsv",
+        "EA-Name": "Text",
+        "EA-Guid": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+        "EA-Package": "DataTypes",
+        "EA-Type": "DATATYPE",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "parentclasses": "",
+        "label": {
+          "en": "Text"
+        },
+        "definition": {
+          "en": "The text data type is a combination of a string and a language identifier."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "Text"
+        },
+        "ap-definition-en": {
+          "en": "The text data type is a combination of a string and a language identifier."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "Text",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "The text data type is a combination of a string and a language identifier.",
+            "note": "null"
+          },
+          {
+            "key": "literal",
+            "value": "true",
+            "note": "null"
+          },
+          {
+            "key": "class-usage-scope",
+            "value": "datatype",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "name": "Text"
+    },
+    {
+      "@id": "http://www.w3.org/2001/XMLSchema#double",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+      },
+      "ap-label-en": {
+        "en": "Double"
+      },
+      "definition": {
+        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+      },
+      "label": {
+        "en": "Double"
+      },
+      "extra": {
+        "EA-Name": "Date",
+        "EA-Guid": "{93158274-550F-43bf-BCA2-D8C45A3A7D70}",
+        "EA-Package": "DataTypes",
+        "EA-Type": "DATATYPE",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "parentclasses": "",
+        "label": {
+          "en": "Double"
+        },
+        "definition": {
+          "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "Double"
+        },
+        "ap-definition-en": {
+          "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "definition-en",
+            "value": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat",
+            "note": "null"
+          },
+          {
+            "key": "label-en",
+            "value": "Double",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://www.w3.org/2001/XMLSchema#double",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "name": "Double"
+    },
+    {
+      "@id": "http://www.w3.org/2001/XMLSchema#double",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+      },
+      "ap-label-en": {
+        "en": "Double"
+      },
+      "definition": {
+        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+      },
+      "label": {
+        "en": "Double"
+      },
+      "extra": {
+        "EA-Name": "String",
+        "EA-Guid": "{1ABBF0E3-EEB0-4941-916E-6EE68AF8D8DC}",
+        "EA-Package": "DataTypes",
+        "EA-Type": "DATATYPE",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "parentclasses": "",
+        "label": {
+          "en": "Double"
+        },
+        "definition": {
+          "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "Double"
+        },
+        "ap-definition-en": {
+          "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "definition-en",
+            "value": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat",
+            "note": "null"
+          },
+          {
+            "key": "label-en",
+            "value": "Double",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://www.w3.org/2001/XMLSchema#double",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "name": "Double"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "This class represents any concept that can be used for classifying the Public Service and which relates to the Public Service through the property Is Classified By."
+      },
+      "usage": {
+        "en": "This class has been added in the CPSV-AP to complement the need for adding other ways of classifying the Public Service, which have not been explicitly defined in the CPSV-AP. In this context, the CPSV-AP reuses the Concept class as defined in <a href=\"https://www.w3.org/2004/02/skos/\">the SKOS Simple Knowledge Organization System</a>. For describing the attributes of a Concept (labels, preferred labels, alternative labels, definition, etc.) we refer to <a href=\"https://www.w3.org/2004/02/skos/\">SKOS</a>. The Concept may or may not belong to (member) a certain Collection."
+      },
+      "ap-label-en": {
+        "en": "Concept"
+      },
+      "definition": {
+        "en": "This class represents any concept that can be used for classifying the Public Service and which relates to the Public Service through the property Is Classified By."
+      },
+      "label": {
+        "en": "Concept"
+      },
+      "extra": {
+        "EA-Name": "Concept",
+        "EA-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Package": "skos",
         "EA-Type": "CLASS",
         "EA-Parents": "",
         "EA-Parents2": [],
         "parentclasses": "",
         "label": {
-          "en": "Public Service"
+          "en": "Concept"
         },
         "definition": {
-          "en": "A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organisation, publicly funded and arise from public policy."
+          "en": "This class represents any concept that can be used for classifying the Public Service and which relates to the Public Service through the property Is Classified By."
         },
         "usage": {
-          "en": "This class represents the Public Service itself, as it is described in a public service catalogue. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of <a href=\"https://ec.europa.eu/isa2/eif_en/\">the European Interoperability Framework</a>, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations."
+          "en": "This class has been added in the CPSV-AP to complement the need for adding other ways of classifying the Public Service, which have not been explicitly defined in the CPSV-AP. In this context, the CPSV-AP reuses the Concept class as defined in <a href=\"https://www.w3.org/2004/02/skos/\">the SKOS Simple Knowledge Organization System</a>. For describing the attributes of a Concept (labels, preferred labels, alternative labels, definition, etc.) we refer to <a href=\"https://www.w3.org/2004/02/skos/\">SKOS</a>. The Concept may or may not belong to (member) a certain Collection."
         },
         "ap-label-en": {
-          "en": "Public Service"
+          "en": "Concept"
         },
         "ap-definition-en": {
-          "en": "A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organisation, publicly funded and arise from public policy."
+          "en": "This class represents any concept that can be used for classifying the Public Service and which relates to the Public Service through the property Is Classified By."
         },
-        "ap-usageNote-en": {
-          "en": "This class represents the Public Service itself, as it is described in a public service catalogue. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of <a href=\"https://ec.europa.eu/isa2/eif_en/\">the European Interoperability Framework</a>, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations."
-        },
+        "ap-usageNote-en": "",
         "ap-codelist": "",
         "RawTags": [
           {
             "key": "definition-en",
             "value": "NOTE",
-            "note": "A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organisation, publicly funded and arise from public policy."
+            "note": "This class represents any concept that can be used for classifying the Public Service and which relates to the Public Service through the property Is Classified By."
           },
           {
             "key": "uri",
-            "value": "http://purl.org/vocab/cpsv#PublicService",
+            "value": "http://www.w3.org/2004/02/skos/core#Concept",
             "note": "null"
           },
           {
             "key": "label-en",
-            "value": "Public Service",
+            "value": "Concept",
             "note": "null"
           },
           {
-            "key": "class-usage-scope",
-            "value": "main",
-            "note": "null"
-          },
-          {
-            "key": "ap-usageNote-en",
+            "key": "usageNote-en",
             "value": "NOTE",
-            "note": "This class represents the Public Service itself, as it is described in a public service catalogue. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of <a href=\"https://ec.europa.eu/isa2/eif_en/\">the European Interoperability Framework</a>, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations."
+            "note": "This class has been added in the CPSV-AP to complement the need for adding other ways of classifying the Public Service, which have not been explicitly defined in the CPSV-AP. In this context, the CPSV-AP reuses the Concept class as defined in <a href=\"https://www.w3.org/2004/02/skos/\">the SKOS Simple Knowledge Organization System</a>. For describing the attributes of a Concept (labels, preferred labels, alternative labels, definition, etc.) we refer to <a href=\"https://www.w3.org/2004/02/skos/\">SKOS</a>. The Concept may or may not belong to (member) a certain Collection."
           }
         ],
         "Scope": "NOTHING"
       },
-      "name": "PublicService"
+      "name": "Concept"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "ConceptScheme",
+        "EA-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Package": "skos",
+        "EA-Type": "CLASS",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "parentclasses": "",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "Scope": "NOTHING"
+      },
+      "name": ""
     }
   ],
   "externalproperties": [
     {
-      "@id": "http://data.europa.eu/m8g/processingTime",
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "processingTime",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "The (estimated) time needed for executing a Public Service. The actual information is provided using the ISO8601 syntax for durations. "
-      },
-      "usage": {
-        "en": "The actual information is provided using the <a href=\"https://www.iso.org/standard/70907.html\">ISO8601</a> syntax for durations. \r\n<br/><br/>\r\nSome examples are provided below:<br/>\r\nDuration Syntax - Syntax<br/>\r\n5 years - P5Y<br/>\r\n1 month - P1M<br/>\r\n3 days - P3D<br/>\r\n2 days 4 hours - P2DT4H\r\n<br/><br/>\r\nDurations begin with an uppercase P followed by the number and the relevant designator, formally: P[n]Y[n]M[n]DT[n]H[n]M[n]S, where Y is for years, M for months etc. \r\n<br/><br/>\r\nNote that days and times are separated by an uppercase T which also\r\ndisambiguates M as meaning month (P2M means 2 months) or minute (PT2M means 2 minutes). Durations may also be defined as a number of weeks so P4W means 4 weeks. A full explanation is provided in the <a href=\"https://en.wikipedia.org/wiki/ISO_8601#Durations\">Wikipedia page</a> that references the official <a href=\"https://www.iso.org/standard/70907.html\">ISO standard</a>.\r\n<br/><br/>\r\nThis approach is consistent with both <a href=\"https://schema.org/\">schema.org</a> and the <a href=\"https://www.w3.org/TR/owl-time/\">W3C OWL Time Ontology.<a/>\r\n"
-      },
-      "ap-label-en": {
-        "en": "processing time"
-      },
-      "definition": {
-        "en": "The (estimated) time needed for executing a Public Service. The actual information is provided using the ISO8601 syntax for durations. "
-      },
-      "label": {
-        "en": "processing time"
+        "en": "TODO"
       },
       "extra": {
-        "EA-Name": "processingTime",
-        "EA-Guid": "{F99D9E09-5EB9-4c02-A5C5-7A65DD287FF6}",
-        "EA-Package": "cpsv",
+        "EA-Name": "altLabel",
+        "EA-Guid": "{75B52B56-3CF6-470b-B01B-B860F04EA77A}",
+        "EA-Package": "skos",
         "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "Duration",
-        "RangeData": {
-          "EA-Name": "Duration",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#duration"
-        },
-        "label": {
-          "en": "processing time"
-        },
-        "definition": {
-          "en": "The (estimated) time needed for executing a Public Service. The actual information is provided using the ISO8601 syntax for durations. "
-        },
-        "usage": {
-          "en": "The actual information is provided using the <a href=\"https://www.iso.org/standard/70907.html\">ISO8601</a> syntax for durations. \r\n<br/><br/>\r\nSome examples are provided below:<br/>\r\nDuration Syntax - Syntax<br/>\r\n5 years - P5Y<br/>\r\n1 month - P1M<br/>\r\n3 days - P3D<br/>\r\n2 days 4 hours - P2DT4H\r\n<br/><br/>\r\nDurations begin with an uppercase P followed by the number and the relevant designator, formally: P[n]Y[n]M[n]DT[n]H[n]M[n]S, where Y is for years, M for months etc. \r\n<br/><br/>\r\nNote that days and times are separated by an uppercase T which also\r\ndisambiguates M as meaning month (P2M means 2 months) or minute (PT2M means 2 minutes). Durations may also be defined as a number of weeks so P4W means 4 weeks. A full explanation is provided in the <a href=\"https://en.wikipedia.org/wiki/ISO_8601#Durations\">Wikipedia page</a> that references the official <a href=\"https://www.iso.org/standard/70907.html\">ISO standard</a>.\r\n<br/><br/>\r\nThis approach is consistent with both <a href=\"https://schema.org/\">schema.org</a> and the <a href=\"https://www.w3.org/TR/owl-time/\">W3C OWL Time Ontology.<a/>\r\n"
-        },
-        "ap-label-en": {
-          "en": "processing time"
-        },
-        "ap-definition-en": {
-          "en": "The (estimated) time needed for executing a Public Service. The actual information is provided using the ISO8601 syntax for durations. "
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "processing time",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/processingTime",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "The actual information is provided using the <a href=\"https://www.iso.org/standard/70907.html\">ISO8601</a> syntax for durations. \r\n<br/><br/>\r\nSome examples are provided below:<br/>\r\nDuration Syntax - Syntax<br/>\r\n5 years - P5Y<br/>\r\n1 month - P1M<br/>\r\n3 days - P3D<br/>\r\n2 days 4 hours - P2DT4H\r\n<br/><br/>\r\nDurations begin with an uppercase P followed by the number and the relevant designator, formally: P[n]Y[n]M[n]DT[n]H[n]M[n]S, where Y is for years, M for months etc. \r\n<br/><br/>\r\nNote that days and times are separated by an uppercase T which also\r\ndisambiguates M as meaning month (P2M means 2 months) or minute (PT2M means 2 minutes). Durations may also be defined as a number of weeks so P4W means 4 weeks. A full explanation is provided in the <a href=\"https://en.wikipedia.org/wiki/ISO_8601#Durations\">Wikipedia page</a> that references the official <a href=\"https://www.iso.org/standard/70907.html\">ISO standard</a>.\r\n<br/><br/>\r\nThis approach is consistent with both <a href=\"https://schema.org/\">schema.org</a> and the <a href=\"https://www.w3.org/TR/owl-time/\">W3C OWL Time Ontology.<a/>\r\n"
-          },
-          {
-            "key": "definition-en",
-            "value": "The (estimated) time needed for executing a Public Service. The actual information is provided using the ISO8601 syntax for durations. ",
-            "note": "null"
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Duration",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#duration"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/relatedService",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "relatedService",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "A Public Service related to the particular instance of the Public Service class."
-      },
-      "ap-label-en": {
-        "en": "related service"
-      },
-      "definition": {
-        "en": "A Public Service related to the particular instance of the Public Service class."
-      },
-      "label": {
-        "en": "related service"
-      },
-      "extra": {
-        "EA-Name": "related",
-        "EA-Guid": "{3843BBCD-1D6E-4c43-B34B-429631D41CB2}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "PublicService",
-        "RangeData": {
-          "EA-Name": "PublicService",
-          "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-          "EA-Package": "cpsv",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
-        },
-        "sourceRole": "null",
-        "destRole": "related",
-        "label": {
-          "en": "related service"
-        },
-        "definition": {
-          "en": "A Public Service related to the particular instance of the Public Service class."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "related service"
-        },
-        "ap-definition-en": {
-          "en": "A Public Service related to the particular instance of the Public Service class."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "property-usage-scope",
-            "value": "NOTE",
-            "note": "optional"
-          },
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "related service"
-          },
-          {
-            "key": "parentURI",
-            "value": "NOTE",
-            "note": "http://purl.org/dc/terms/relation"
-          },
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://data.europa.eu/m8g/relatedService"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "A Public Service related to the particular instance of the Public Service class."
-          }
-        ],
-        "DestRoleTags": [
-          {
-            "key": "property-usage-scope",
-            "value": "NOTE",
-            "note": "optional"
-          },
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "related service"
-          },
-          {
-            "key": "parentURI",
-            "value": "NOTE",
-            "note": "http://purl.org/dc/terms/relation"
-          },
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://data.europa.eu/m8g/relatedService"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "A Public Service related to the particular instance of the Public Service class."
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "PublicService",
-          "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-          "EA-Package": "cpsv",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
-        }
-      ],
-      "generalization": [
-        "http://purl.org/dc/terms/relation"
-      ],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/sector",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "sector",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "The industry or sector a Public Service relates to, or is intended for."
-      },
-      "usage": {
-        "en": "For example: environment, safety, housing. Note that a single Public Service may relate to multiple sectors. The possible values for this property are provided as a controlled vocabulary. The possible values for this property are described in the controlled vocabulary <a href=\" https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme\">Data theme</a> Authority Table of the Publications Office. "
-      },
-      "ap-label-en": {
-        "en": "sector"
-      },
-      "definition": {
-        "en": "The industry or sector a Public Service relates to, or is intended for."
-      },
-      "label": {
-        "en": "sector"
-      },
-      "extra": {
-        "EA-Name": "sector",
-        "EA-Guid": "{8F61A18D-3566-446b-B265-0B0B022B7345}",
-        "EA-Package": "cpsv",
-        "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "Code",
-        "RangeData": {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        },
-        "label": {
-          "en": "sector"
-        },
-        "definition": {
-          "en": "The industry or sector a Public Service relates to, or is intended for."
-        },
-        "usage": {
-          "en": "For example: environment, safety, housing. Note that a single Public Service may relate to multiple sectors. The possible values for this property are provided as a controlled vocabulary. The possible values for this property are described in the controlled vocabulary <a href=\" https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme\">Data theme</a> Authority Table of the Publications Office. "
-        },
-        "ap-label-en": {
-          "en": "sector"
-        },
-        "ap-definition-en": {
-          "en": "The industry or sector a Public Service relates to, or is intended for."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "The industry or sector a Public Service relates to, or is intended for."
-          },
-          {
-            "key": "label-en",
-            "value": "sector",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/sector",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "For example: environment, safety, housing. Note that a single Public Service may relate to multiple sectors. The possible values for this property are provided as a controlled vocabulary. The possible values for this property are described in the controlled vocabulary <a href=\" https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme\">Data theme</a> Authority Table of the Publications Office. "
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/thematicArea",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "thematicArea",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "The Thematic Area of a Public Service."
-      },
-      "usage": {
-        "en": "For example: social protection, health, recreation, culture and religion, family, traveling economic affairs, tax, staff, environment, etc."
-      },
-      "ap-label-en": {
-        "en": "thematic area"
-      },
-      "definition": {
-        "en": "The Thematic Area of a Public Service."
-      },
-      "label": {
-        "en": "thematic area"
-      },
-      "extra": {
-        "EA-Name": "thematicArea",
-        "EA-Guid": "{9A274FDC-884B-4f0a-8900-41964DE10AA7}",
-        "EA-Package": "cpsv",
-        "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "Code",
-        "RangeData": {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        },
-        "label": {
-          "en": "thematic area"
-        },
-        "definition": {
-          "en": "The Thematic Area of a Public Service."
-        },
-        "usage": {
-          "en": "For example: social protection, health, recreation, culture and religion, family, traveling economic affairs, tax, staff, environment, etc."
-        },
-        "ap-label-en": {
-          "en": "thematic area"
-        },
-        "ap-definition-en": {
-          "en": "The Thematic Area of a Public Service."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "value": "The Thematic Area of a Public Service.",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "thematic area",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/thematicArea",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "For example: social protection, health, recreation, culture and religion, family, traveling economic affairs, tax, staff, environment, etc."
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/audience",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "addressee",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "The target recipient of the Public Service."
-      },
-      "usage": {
-        "en": "Examples are citizens, business, etc."
-      },
-      "ap-label-en": {
-        "en": "addressee"
-      },
-      "definition": {
-        "en": "The target recipient of the Public Service."
-      },
-      "label": {
-        "en": "addressee"
-      },
-      "extra": {
-        "EA-Name": "addressee",
-        "EA-Guid": "{430C2232-35C5-4a16-80EB-7897BE96C569}",
-        "EA-Package": "cpsv",
-        "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "Code",
-        "RangeData": {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        },
-        "label": {
-          "en": "addressee"
-        },
-        "definition": {
-          "en": "The target recipient of the Public Service."
-        },
-        "usage": {
-          "en": "Examples are citizens, business, etc."
-        },
-        "ap-label-en": {
-          "en": "addressee"
-        },
-        "ap-definition-en": {
-          "en": "The target recipient of the Public Service."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/audience",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "addressee",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "The target recipient of the Public Service.",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "Examples are citizens, business, etc."
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "description",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "A free text Description of the Public Service."
-      },
-      "usage": {
-        "en": "The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
-      },
-      "ap-label-en": {
-        "en": "description"
-      },
-      "definition": {
-        "en": "A free text Description of the Public Service."
-      },
-      "label": {
-        "en": "description"
-      },
-      "extra": {
-        "EA-Name": "description",
-        "EA-Guid": "{F42F25CF-BC65-4689-81D8-86C1EF81A54E}",
-        "EA-Package": "cpsv",
-        "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
         "EA-Range": "Text",
         "RangeData": {
           "EA-Name": "Text",
@@ -803,57 +480,184 @@
           "EA-Package": "DataTypes",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
         },
-        "label": {
-          "en": "description"
-        },
-        "definition": {
-          "en": "A free text Description of the Public Service."
-        },
-        "usage": {
-          "en": "The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
-        },
-        "ap-label-en": {
-          "en": "description"
-        },
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
         "ap-definition-en": {
-          "en": "A free text Description of the Public Service."
+          "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "A free text Description of the Public Service."
-          },
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/description",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "description",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "mandatory",
-            "note": "null"
-          }
-        ],
+        "RawTags": [],
         "Scope": "NOTHING"
       },
       "codelist": [],
       "domain": [
         {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Text",
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "broader",
+        "EA-Guid": "{0D22C4F7-7212-41f6-9F1D-F9B1C0856532}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Range": "Concept",
+        "RangeData": {
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "sourceRole": "null",
+        "destRole": "broader",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#created",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "created",
+        "EA-Guid": "{EDAB342F-9FAF-478b-BBF3-69733E82D110}",
+        "EA-Package": "skos",
+        "EA-Type": "attribute",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "Date",
+        "RangeData": {
+          "EA-Name": "Date",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#date"
+        },
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Date",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "definition",
+        "EA-Guid": "{5E2EEC1C-F038-4658-B95E-382254A8DB0F}",
+        "EA-Package": "skos",
+        "EA-Type": "attribute",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Range": "Text",
+        "RangeData": {
+          "EA-Name": "Text",
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        },
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
         }
       ],
       "range": [
@@ -866,89 +670,110 @@
       ],
       "generalization": [],
       "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "hasTopConcept",
+        "EA-Guid": "{6F847E1E-CF9D-404f-92C4-1F96FA259F38}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "Concept",
+        "RangeData": {
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "sourceRole": "topConceptOf",
+        "destRole": "hasTopConcept",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
       "maxCardinality": "*"
     },
     {
-      "@id": "http://purl.org/dc/terms/identifier",
+      "@id": "http://www.w3.org/2004/02/skos/core#identifier",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "identifier",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "A formally-issued Identifier for the Public Service."
-      },
-      "ap-label-en": {
-        "en": "identifier"
-      },
-      "definition": {
-        "en": "A formally-issued Identifier for the Public Service."
-      },
-      "label": {
-        "en": "identifier"
+        "en": "TODO"
       },
       "extra": {
         "EA-Name": "identifier",
-        "EA-Guid": "{6AFD1AA9-61EF-4292-A50F-ABB535659710}",
-        "EA-Package": "cpsv",
+        "EA-Guid": "{F2D62A33-4ABC-4780-9209-28295D732035}",
+        "EA-Package": "skos",
         "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "Literal",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "String",
         "RangeData": {
-          "EA-Name": "Literal",
+          "EA-Name": "String",
           "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
         },
-        "label": {
-          "en": "identifier"
-        },
-        "definition": {
-          "en": "A formally-issued Identifier for the Public Service."
-        },
+        "label": "",
+        "definition": "",
         "usage": "",
-        "ap-label-en": {
-          "en": "identifier"
-        },
+        "ap-label-en": "",
         "ap-definition-en": {
-          "en": "A formally-issued Identifier for the Public Service."
+          "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "value": "A formally-issued Identifier for the Public Service.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/identifier",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "identifier",
-            "note": "null"
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "mandatory",
-            "note": "null"
-          }
-        ],
+        "RawTags": [],
         "Scope": "NOTHING"
       },
       "codelist": [],
       "domain": [
         {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
         }
       ],
       "range": [
         {
-          "EA-Name": "Literal",
+          "EA-Name": "String",
           "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
         }
       ],
       "generalization": [],
@@ -956,356 +781,293 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "http://purl.org/dc/terms/language",
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "language",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "The language(s) in which the Public Service is available."
-      },
-      "usage": {
-        "en": "This could be one language or multiple languages, for instance in countries with more than one official language.\r\n\r\nThe recommended controlled vocabularies for this property is the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language\">Language</a> Authority Table of the Publications Office."
-      },
-      "ap-label-en": {
-        "en": "language"
-      },
-      "definition": {
-        "en": "The language(s) in which the Public Service is available."
-      },
-      "label": {
-        "en": "language"
+        "en": "TODO"
       },
       "extra": {
-        "EA-Name": "language",
-        "EA-Guid": "{15E8B949-A84E-47b0-890F-0E28DE7AB66B}",
-        "EA-Package": "cpsv",
-        "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "LinguisticSystem",
-        "RangeData": {
-          "EA-Name": "LinguisticSystem",
-          "EA-GUID": "{B124ABA3-1C85-4805-BF70-6ABB74762831}",
-          "EA-Package": "dct",
-          "uri": "http://purl.org/dc/terms/LinguisticSystem"
-        },
-        "label": {
-          "en": "language"
-        },
-        "definition": {
-          "en": "The language(s) in which the Public Service is available."
-        },
-        "usage": {
-          "en": "This could be one language or multiple languages, for instance in countries with more than one official language.\r\n\r\nThe recommended controlled vocabularies for this property is the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language\">Language</a> Authority Table of the Publications Office."
-        },
-        "ap-label-en": {
-          "en": "language"
-        },
-        "ap-definition-en": {
-          "en": "The language(s) in which the Public Service is available."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/language",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "language",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "The language(s) in which the Public Service is available.",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "This could be one language or multiple languages, for instance in countries with more than one official language.\r\n\r\nThe recommended controlled vocabularies for this property is the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language\">Language</a> Authority Table of the Publications Office."
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "LinguisticSystem",
-          "EA-GUID": "{B124ABA3-1C85-4805-BF70-6ABB74762831}",
-          "EA-Package": "dct",
-          "uri": "http://purl.org/dc/terms/LinguisticSystem"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/requires",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "requires",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "The way a Public Service makes use of other Public Services."
-      },
-      "usage": {
-        "en": "One Public Service may require, or in some way make use of, the output of one or several other Public Services. In this case, for a Public Service to be executed, another Public Service must be executed beforehand. The nature of the requirement will be described in the associated Rule or Evidence."
-      },
-      "ap-label-en": {
-        "en": "requires"
-      },
-      "definition": {
-        "en": "The way a Public Service makes use of other Public Services."
-      },
-      "label": {
-        "en": "requires"
-      },
-      "extra": {
-        "EA-Name": "requires",
-        "EA-Guid": "{BC13F0D5-DCD9-4039-B4EB-C57B19B32A4C}",
+        "EA-Name": "inScheme",
+        "EA-Guid": "{02DA6AB5-4367-4372-A7FE-FB793FC53F95}",
         "derived": "false",
         "EA-Package": "",
         "EA-Type": "connector",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "PublicService",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Range": "ConceptScheme",
         "RangeData": {
-          "EA-Name": "PublicService",
-          "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-          "EA-Package": "cpsv",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "ConceptScheme",
+          "EA-GUID": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
         },
         "sourceRole": "null",
-        "destRole": "requires",
-        "label": {
-          "en": "requires"
-        },
-        "definition": {
-          "en": "The way a Public Service makes use of other Public Services."
-        },
-        "usage": {
-          "en": "One Public Service may require, or in some way make use of, the output of one or several other Public Services. In this case, for a Public Service to be executed, another Public Service must be executed beforehand. The nature of the requirement will be described in the associated Rule or Evidence."
-        },
-        "ap-label-en": {
-          "en": "requires"
-        },
+        "destRole": "inScheme",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
         "ap-definition-en": {
-          "en": "The way a Public Service makes use of other Public Services."
+          "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://purl.org/dc/terms/requires"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "NOTE$ea_notes=One Public Service may require, or in some way make use of, the output of one or several other Public Services. In this case, for a Public Service to be executed, another Public Service must be executed beforehand. The nature of the requirement will be described in the associated Rule or Evidence."
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "NOTE$ea_notes=The way a Public Service makes use of other Public Services."
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "NOTE",
-            "note": "optional"
-          },
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "requires"
-          }
-        ],
-        "DestRoleTags": [
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://purl.org/dc/terms/requires"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "NOTE$ea_notes=One Public Service may require, or in some way make use of, the output of one or several other Public Services. In this case, for a Public Service to be executed, another Public Service must be executed beforehand. The nature of the requirement will be described in the associated Rule or Evidence."
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "NOTE$ea_notes=The way a Public Service makes use of other Public Services."
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "NOTE",
-            "note": "optional"
-          },
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "requires"
-          }
-        ],
+        "RawTags": [],
+        "DestRoleTags": [],
         "Scope": "NOTHING"
       },
       "codelist": [],
       "domain": [
         {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
         }
       ],
       "range": [
         {
-          "EA-Name": "PublicService",
-          "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-          "EA-Package": "cpsv",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "ConceptScheme",
+          "EA-GUID": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
         }
       ],
       "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
+      "minCardinality": "1",
+      "maxCardinality": "1"
     },
     {
-      "@id": "http://purl.org/dc/terms/spatial",
+      "@id": "http://www.w3.org/2004/02/skos/core#isReplacedBy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "spatial",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "A Public Service is likely to be available only within a given area, typically the area covered by a particular public authority."
-      },
-      "usage": {
-        "en": "A common usage of the spatial property will be to define the Administrative Territorial Unit(s) - typically a country or region - in which a Public Service is available. The Publications Office of the European Union offers <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/atu\">a URI set</a> that is suitable for this purpose. In case the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/atu\">ATU code list</a> is not suitable, <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/nuts\">NUTS</a> or <a href=\"https://ec.europa.eu/eurostat/web/nuts/local-administrative-units\">LAU</a>, <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/place\">NAL Place</a> or <a href=\"http://www.geonames.org\">Geonames</a> are recommended to use, in that order. If those are still not sufficient, we recommend to define your own code list.\r\n\r\nN.B. The spatial restriction is not meant to be used to describe eligibility or the speed of operation of the service. These aspects will be covered by the <a href=\"http://data.europa.eu/m8g/Criterion\">Criterion class</a>."
-      },
-      "ap-label-en": {
-        "en": "spatial"
-      },
-      "definition": {
-        "en": "A Public Service is likely to be available only within a given area, typically the area covered by a particular public authority."
-      },
-      "label": {
-        "en": "spatial"
+        "en": "TODO"
       },
       "extra": {
-        "EA-Name": "spatial",
-        "EA-Guid": "{138DCDCE-4C4B-4f4c-92AC-18336D5E88EB}",
-        "EA-Package": "cpsv",
-        "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "Location",
+        "EA-Name": "isReplacedBy",
+        "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "ConceptScheme",
         "RangeData": {
-          "EA-Name": "Location",
-          "EA-GUID": "{4EA28AE6-3F77-48f9-B6BA-3CA6BB12FC9B}",
-          "EA-Package": "dct",
-          "uri": "http://purl.org/dc/terms/Location"
+          "EA-Name": "ConceptScheme",
+          "EA-GUID": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
         },
-        "label": {
-          "en": "spatial"
-        },
-        "definition": {
-          "en": "A Public Service is likely to be available only within a given area, typically the area covered by a particular public authority."
-        },
-        "usage": {
-          "en": "A common usage of the spatial property will be to define the Administrative Territorial Unit(s) - typically a country or region - in which a Public Service is available. The Publications Office of the European Union offers <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/atu\">a URI set</a> that is suitable for this purpose. In case the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/atu\">ATU code list</a> is not suitable, <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/nuts\">NUTS</a> or <a href=\"https://ec.europa.eu/eurostat/web/nuts/local-administrative-units\">LAU</a>, <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/place\">NAL Place</a> or <a href=\"http://www.geonames.org\">Geonames</a> are recommended to use, in that order. If those are still not sufficient, we recommend to define your own code list.\r\n\r\nN.B. The spatial restriction is not meant to be used to describe eligibility or the speed of operation of the service. These aspects will be covered by the <a href=\"http://data.europa.eu/m8g/Criterion\">Criterion class</a>."
-        },
-        "ap-label-en": {
-          "en": "spatial"
-        },
+        "sourceRole": "replaces",
+        "destRole": "isReplacedBy",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
         "ap-definition-en": {
-          "en": "A Public Service is likely to be available only within a given area, typically the area covered by a particular public authority."
+          "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/spatial",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "spatial",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "A common usage of the spatial property will be to define the Administrative Territorial Unit(s) - typically a country or region - in which a Public Service is available. The Publications Office of the European Union offers <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/atu\">a URI set</a> that is suitable for this purpose. In case the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/atu\">ATU code list</a> is not suitable, <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/nuts\">NUTS</a> or <a href=\"https://ec.europa.eu/eurostat/web/nuts/local-administrative-units\">LAU</a>, <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/place\">NAL Place</a> or <a href=\"http://www.geonames.org\">Geonames</a> are recommended to use, in that order. If those are still not sufficient, we recommend to define your own code list.\r\n\r\nN.B. The spatial restriction is not meant to be used to describe eligibility or the speed of operation of the service. These aspects will be covered by the <a href=\"http://data.europa.eu/m8g/Criterion\">Criterion class</a>."
-          },
-          {
-            "key": "definition-en",
-            "value": "A Public Service is likely to be available only within a given area, typically the area covered by a particular public authority.",
-            "note": "null"
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          }
-        ],
+        "RawTags": [],
+        "DestRoleTags": [],
         "Scope": "NOTHING"
       },
       "codelist": [],
       "domain": [
         {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
         }
       ],
       "range": [
         {
-          "EA-Name": "Location",
-          "EA-GUID": "{4EA28AE6-3F77-48f9-B6BA-3CA6BB12FC9B}",
-          "EA-Package": "dct",
-          "uri": "http://purl.org/dc/terms/Location"
+          "EA-Name": "ConceptScheme",
+          "EA-GUID": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
         }
       ],
       "generalization": [],
       "minCardinality": "0",
-      "maxCardinality": "*"
+      "maxCardinality": "1"
     },
     {
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "name",
+      "@id": "http://www.w3.org/2004/02/skos/core#isReplacedBy",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "The official Name of the Public Service."
-      },
-      "ap-label-en": {
-        "en": "name"
-      },
-      "definition": {
-        "en": "The official Name of the Public Service."
-      },
-      "label": {
-        "en": "name"
+        "en": "TODO"
       },
       "extra": {
-        "EA-Name": "name",
-        "EA-Guid": "{D6E8F03C-7B49-4b9c-A607-CBAED050D42B}",
-        "EA-Package": "cpsv",
+        "EA-Name": "isReplacedBy",
+        "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Range": "Concept",
+        "RangeData": {
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "sourceRole": "replaces",
+        "destRole": "isReplacedBy",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#issued",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "issued",
+        "EA-Guid": "{6A544626-8EA2-46cd-9A3E-BC5D8960B4C5}",
+        "EA-Package": "skos",
         "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "Date",
+        "RangeData": {
+          "EA-Name": "Date",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#date"
+        },
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Date",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#modified",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "modified",
+        "EA-Guid": "{4E65B314-7B57-4cfc-9C04-BE99D6A6A2B2}",
+        "EA-Package": "skos",
+        "EA-Type": "attribute",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "Date",
+        "RangeData": {
+          "EA-Name": "Date",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#date"
+        },
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Date",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "prefLabel",
+        "EA-Guid": "{C92D2027-FAA8-4045-9274-07936B7E3EF5}",
+        "EA-Package": "skos",
+        "EA-Type": "attribute",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
         "EA-Range": "Text",
         "RangeData": {
           "EA-Name": "Text",
@@ -1313,50 +1075,23 @@
           "EA-Package": "DataTypes",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
         },
-        "label": {
-          "en": "name"
-        },
-        "definition": {
-          "en": "The official Name of the Public Service."
-        },
+        "label": "",
+        "definition": "",
         "usage": "",
-        "ap-label-en": {
-          "en": "name"
-        },
+        "ap-label-en": "",
         "ap-definition-en": {
-          "en": "The official Name of the Public Service."
+          "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "value": "The official Name of the Public Service.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/title",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "name",
-            "note": "null"
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "mandatory",
-            "note": "null"
-          }
-        ],
+        "RawTags": [],
         "Scope": "NOTHING"
       },
       "codelist": [],
       "domain": [
         {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
         }
       ],
       "range": [
@@ -1369,194 +1104,168 @@
       ],
       "generalization": [],
       "minCardinality": "1",
-      "maxCardinality": "*"
+      "maxCardinality": "1"
     },
     {
-      "@id": "http://purl.org/dc/terms/type",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "functionsOfGovernment",
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "The purpose of a government activity, which the public service is intended for."
-      },
-      "usage": {
-        "en": "The possible values for this property are described in the controlled vocabulary <a href=\" https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/main-activity\">COFOG main activity</a> Authority Table of the Publications Office. "
-      },
-      "ap-label-en": {
-        "en": "functions of government"
-      },
-      "definition": {
-        "en": "The purpose of a government activity, which the public service is intended for."
-      },
-      "label": {
-        "en": "functions of government"
+        "en": "TODO"
       },
       "extra": {
-        "EA-Name": "functionsOfGovernment",
-        "EA-Guid": "{FB2B769F-03A4-4a2f-A658-48E76A292FA7}",
-        "EA-Package": "cpsv",
+        "EA-Name": "prefLabel",
+        "EA-Guid": "{10E1C399-1A32-4c0a-A0EA-5A3DBEC32025}",
+        "EA-Package": "skos",
         "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "Code",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "Text",
         "RangeData": {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
+          "EA-Name": "Text",
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
           "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
         },
-        "label": {
-          "en": "functions of government"
-        },
-        "definition": {
-          "en": "The purpose of a government activity, which the public service is intended for."
-        },
-        "usage": {
-          "en": "The possible values for this property are described in the controlled vocabulary <a href=\" https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/main-activity\">COFOG main activity</a> Authority Table of the Publications Office. "
-        },
-        "ap-label-en": {
-          "en": "functions of government"
-        },
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
         "ap-definition-en": {
-          "en": "The purpose of a government activity, which the public service is intended for."
+          "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "The purpose of a government activity, which the public service is intended for."
-          },
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/type",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "functions of government",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "The possible values for this property are described in the controlled vocabulary <a href=\" https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/main-activity\">COFOG main activity</a> Authority Table of the Publications Office. "
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          }
-        ],
+        "RawTags": [],
         "Scope": "NOTHING"
       },
       "codelist": [],
       "domain": [
         {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
         }
       ],
       "range": [
         {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
+          "EA-Name": "Text",
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
           "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#replaces",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "replaces",
+        "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "ConceptScheme",
+        "RangeData": {
+          "EA-Name": "ConceptScheme",
+          "EA-GUID": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "sourceRole": "isReplacedBy",
+        "destRole": "replaces",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "ConceptScheme",
+          "EA-GUID": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
         }
       ],
       "generalization": [],
       "minCardinality": "0",
-      "maxCardinality": "*"
+      "maxCardinality": "1"
     },
     {
-      "@id": "http://www.w3.org/ns/adms#status",
+      "@id": "http://www.w3.org/2004/02/skos/core#replaces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "status",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "It indicates whether a Public Service is active, inactive, under development etc. according to a controlled vocabulary."
-      },
-      "ap-label-en": {
-        "en": "status"
-      },
-      "definition": {
-        "en": "It indicates whether a Public Service is active, inactive, under development etc. according to a controlled vocabulary."
-      },
-      "label": {
-        "en": "status"
+        "en": "TODO"
       },
       "extra": {
-        "EA-Name": "status",
-        "EA-Guid": "{5564FDC3-EA77-4633-9C37-E01A21A70F78}",
-        "EA-Package": "cpsv",
-        "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-        "EA-Range": "Code",
+        "EA-Name": "replaces",
+        "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Range": "Concept",
         "RangeData": {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
-          "EA-Package": "DataTypes",
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
-        "label": {
-          "en": "status"
-        },
-        "definition": {
-          "en": "It indicates whether a Public Service is active, inactive, under development etc. according to a controlled vocabulary."
-        },
+        "sourceRole": "isReplacedBy",
+        "destRole": "replaces",
+        "label": "",
+        "definition": "",
         "usage": "",
-        "ap-label-en": {
-          "en": "status"
-        },
+        "ap-label-en": "",
         "ap-definition-en": {
-          "en": "It indicates whether a Public Service is active, inactive, under development etc. according to a controlled vocabulary."
+          "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "value": "It indicates whether a Public Service is active, inactive, under development etc. according to a controlled vocabulary.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://www.w3.org/ns/adms#status",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "status",
-            "note": "null"
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          }
-        ],
+        "RawTags": [],
+        "DestRoleTags": [],
         "Scope": "NOTHING"
       },
       "codelist": [],
       "domain": [
         {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
         }
       ],
       "range": [
         {
-          "EA-Name": "Code",
-          "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
-          "EA-Package": "DataTypes",
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -1565,29 +1274,77 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "http://www.w3.org/ns/dcat#keyword",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "keyword",
+      "@id": "http://www.w3.org/2004/02/skos/core#status",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "A keyword, term or phrase to describe the Public Service."
-      },
-      "ap-label-en": {
-        "en": "keyword"
-      },
-      "definition": {
-        "en": "A keyword, term or phrase to describe the Public Service."
-      },
-      "label": {
-        "en": "keyword"
+        "en": "TODO"
       },
       "extra": {
-        "EA-Name": "keyword",
-        "EA-Guid": "{BCF48689-663E-49c3-9598-A057022FCCBC}",
-        "EA-Package": "cpsv",
+        "EA-Name": "status",
+        "EA-Guid": "{9B55DCF5-7984-4c3b-A31D-B4593D3B4922}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Range": "Concept",
+        "RangeData": {
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "sourceRole": "null",
+        "destRole": "status",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Concept",
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#title",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "title",
+        "EA-Guid": "{C70599F6-217C-4c9e-B0D2-EA72E66A126D}",
+        "EA-Package": "skos",
         "EA-Type": "attribute",
-        "EA-Domain": "PublicService",
-        "EA-Domain-Guid": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
         "EA-Range": "Text",
         "RangeData": {
           "EA-Name": "Text",
@@ -1595,55 +1352,23 @@
           "EA-Package": "DataTypes",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
         },
-        "label": {
-          "en": "keyword"
-        },
-        "definition": {
-          "en": "A keyword, term or phrase to describe the Public Service."
-        },
+        "label": "",
+        "definition": "",
         "usage": "",
-        "ap-label-en": {
-          "en": "keyword"
-        },
+        "ap-label-en": "",
         "ap-definition-en": {
-          "en": "A keyword, term or phrase to describe the Public Service."
+          "en": "TODO"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "value": "A keyword, term or phrase to describe the Public Service.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://www.w3.org/ns/dcat#keyword",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "keyword",
-            "note": "null"
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          },
-          {
-            "key": "property-usage-scope",
-            "value": "optional",
-            "note": "null"
-          }
-        ],
+        "RawTags": [],
         "Scope": "NOTHING"
       },
       "codelist": [],
       "domain": [
         {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "PublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
         }
       ],
       "range": [
@@ -1655,8 +1380,167 @@
         }
       ],
       "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "topConceptOf",
+        "EA-Guid": "{6F847E1E-CF9D-404f-92C4-1F96FA259F38}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Range": "ConceptScheme",
+        "RangeData": {
+          "EA-Name": "ConceptScheme",
+          "EA-GUID": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "sourceRole": "hasTopConcept",
+        "destRole": "topConceptOf",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "ConceptScheme",
+          "EA-GUID": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        }
+      ],
+      "generalization": [],
       "minCardinality": "0",
-      "maxCardinality": "*"
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#versionInfo",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "versionInfo",
+        "EA-Guid": "{2F0642B8-6DD5-4685-86FB-2B506E7C84D3}",
+        "EA-Package": "skos",
+        "EA-Type": "attribute",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Range": "String",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#versionInfo",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "extra": {
+        "EA-Name": "versionInfo",
+        "EA-Guid": "{DABA4091-A92A-4443-8230-9B90173A923C}",
+        "EA-Package": "skos",
+        "EA-Type": "attribute",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "String",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-en": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
     }
   ],
   "name": "d4wta-ap",
@@ -1690,14 +1574,14 @@
   },
   "config": "config/config-ap.json",
   "branchtag": "ReSpecCV",
-  "dummy": "8",
+  "dummy": "9",
   "filename": "config/data4wallonia.json",
   "navigation": {
     "prev": "https://semiceu.github.io/CPSV-AP/releases/3.2.0/"
   },
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
   "urlref": "/D4WTA-AP/releases/3.2.0/",
-  "documentcommit": "58613ca1ab4a269baddf82d0da2abb074bb8fa43",
-  "toolchaincommit": "e88df729ee0dd4f6a7142f8bf6f438eb8c19b7f2",
+  "documentcommit": "902e8f82ca0f3bc195b04b174769539f88e2251b",
+  "toolchaincommit": "9061b369dc15ec9fe0c8eb43167e79d57211662e",
   "hostname": "https://EmidioStani.github.io"
 }
