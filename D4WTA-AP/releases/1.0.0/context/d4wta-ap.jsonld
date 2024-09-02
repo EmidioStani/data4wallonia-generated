@@ -15,7 +15,7 @@
       "@type": "@id"
     },
     "created": {
-      "@id": "http://www.w3.org/2004/02/skos/core#created",
+      "@id": "http://purl.org/dc/terms/created",
       "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "definition": {
@@ -28,7 +28,7 @@
       "@type": "@id"
     },
     "identifier": {
-      "@id": "http://www.w3.org/2004/02/skos/core#identifier",
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "inScheme": {
@@ -36,31 +36,35 @@
       "@type": "@id"
     },
     "isReplacedBy": {
-      "@id": "http://www.w3.org/2004/02/skos/core#isReplacedBy",
+      "@id": "http://purl.org/dc/terms/isReplacedBy",
       "@type": "@id"
     },
     "issued": {
-      "@id": "http://www.w3.org/2004/02/skos/core#issued",
+      "@id": "http://purl.org/dc/terms/issued",
       "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "modified": {
-      "@id": "http://www.w3.org/2004/02/skos/core#modified",
+      "@id": "http://purl.org/dc/terms/modified",
       "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "prefLabel": {
       "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
-    "status": {
-      "@id": "http://www.w3.org/2004/02/skos/core#status",
+    "replaces": {
+      "@id": "http://purl.org/dc/terms/replaces",
       "@type": "@id"
     },
-    "title": {
-      "@id": "http://www.w3.org/2004/02/skos/core#title",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    "status": {
+      "@id": "http://publications.europa.eu/ontology/euvoc#status",
+      "@type": "@id"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type": "@id"
     },
     "versionInfo": {
-      "@id": "http://www.w3.org/2004/02/skos/core#versionInfo",
+      "@id": "http://www.w3.org/2002/07/owl#versionInfo",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     }
   }

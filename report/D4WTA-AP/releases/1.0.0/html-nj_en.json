@@ -1,0 +1,916 @@
+{
+  "metadata": {
+    "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
+    "uri": "https://data.europa.eu/m8g",
+    "issued": "2024-08-29",
+    "baseURI": "https://data.europa.eu/m8g/",
+    "filename": "d4wta-ap",
+    "navigation": {
+      "prev": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0",
+      "self": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "documenttype": "ap",
+    "documentconfig": {
+      "editorDocumentroot": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0",
+      "statuslabel": "SEMIC Candidate Recommendation"
+    },
+    "status": "Draft",
+    "statuslabel": "Onbekend",
+    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/743d63cbf1afa6f5e9ff2efff47fa7c6683b25af",
+    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/743d63cbf1afa6f5e9ff2efff47fa7c6683b25af/CHANGELOG",
+    "feedbackurl": "https://github.com/EmidioStani/D4WTA-AP/issues",
+    "standaardregisterurl": "https://github.com/EmidioStani/CPSV-AP/blob/master/releases/1.0.0/Changelog.md",
+    "usesVocs": [],
+    "usesAPs": []
+  },
+  "classes": [
+    {
+      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+      "name": "Concept",
+      "label": {
+        "en": "Concept"
+      },
+      "sort": "Concept",
+      "description": {
+        "en": "This class represents any concept that can be used for classifying the Public Service and which relates to the Public Service through the property Is Classified By."
+      },
+      "usage": {
+        "en": "This class has been added in the CPSV-AP to complement the need for adding other ways of classifying the Public Service, which have not been explicitly defined in the CPSV-AP. In this context, the CPSV-AP reuses the Concept class as defined in <a href=\"https://www.w3.org/2004/02/skos/\">the SKOS Simple Knowledge Organization System</a>. For describing the attributes of a Concept (labels, preferred labels, alternative labels, definition, etc.) we refer to <a href=\"https://www.w3.org/2004/02/skos/\">SKOS</a>. The Concept may or may not belong to (member) a certain Collection."
+      },
+      "parents": [],
+      "rawTags": {
+        "definition-en": "This class represents any concept that can be used for classifying the Public Service and which relates to the Public Service through the property Is Classified By.",
+        "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label-en": "Concept",
+        "usageNote-en": "This class has been added in the CPSV-AP to complement the need for adding other ways of classifying the Public Service, which have not been explicitly defined in the CPSV-AP. In this context, the CPSV-AP reuses the Concept class as defined in <a href=\"https://www.w3.org/2004/02/skos/\">the SKOS Simple Knowledge Organization System</a>. For describing the attributes of a Concept (labels, preferred labels, alternative labels, definition, etc.) we refer to <a href=\"https://www.w3.org/2004/02/skos/\">SKOS</a>. The Concept may or may not belong to (member) a certain Collection.",
+        "class-usage-scope": "main"
+      },
+      "properties": [
+        {
+          "uri": "http://publications.europa.eu/ontology/euvoc#status",
+          "name": "status",
+          "sort": "status",
+          "label": {
+            "en": "status"
+          },
+          "description": {
+            "en": "The status of the concept in the context of a particular workflow process."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Concept",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Concept"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://publications.europa.eu/ontology/euvoc#status",
+            "label-en": "status",
+            "definition-en": "NOTE$ea_notes=The status of the concept in the context of a particular workflow process."
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/isReplacedBy",
+          "name": "isReplacedBy",
+          "sort": "is replaced by",
+          "label": {
+            "en": "is replaced by"
+          },
+          "description": {
+            "en": "A related resource that supplants, displaces, or supersedes the described resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Concept",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Concept"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "is replaced by",
+            "uri": "http://purl.org/dc/terms/isReplacedBy",
+            "definition-en": "NOTE$ea_notes=A related resource that supplants, displaces, or supersedes the described resource."
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/replaces",
+          "name": "replaces",
+          "sort": "replaces",
+          "label": {
+            "en": "replaces"
+          },
+          "description": {
+            "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Concept",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Concept"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "replaces",
+            "uri": "http://purl.org/dc/terms/replaces",
+            "definition-en": "NOTE$ea_notes=A related resource that is supplanted, displaced, or superseded by the described resource."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2002/07/owl#versionInfo",
+          "name": "versionInfo",
+          "sort": "version info",
+          "label": {
+            "en": "version info"
+          },
+          "description": {
+            "en": "This element contains a string giving information about this version such as RCS/CVS keywords."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Double",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "Double"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/2002/07/owl#versionInfo",
+            "label-en": "version info",
+            "definition-en": "This element contains a string giving information about this version such as RCS/CVS keywords."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#altLabel",
+          "name": "alternativeLabel",
+          "sort": "alternative label",
+          "label": {
+            "en": "alternative label"
+          },
+          "description": {
+            "en": "An alternative lexical label for a resource."
+          },
+          "usage": {
+            "en": "Acronyms, abbreviations, spelling variants, and irregular plural/singular forms may be included among the alternative labels for a concept. Mis-spelled terms are normally included as hidden labels (see skos:hiddenLabel)."
+          },
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Text",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Text",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Text"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "alternative label",
+            "uri": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "definition-en": "An alternative lexical label for a resource.",
+            "usageNote-en": "Acronyms, abbreviations, spelling variants, and irregular plural/singular forms may be included among the alternative labels for a concept. Mis-spelled terms are normally included as hidden labels (see skos:hiddenLabel)."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#broader",
+          "name": "hasBroader",
+          "sort": "has broader",
+          "label": {
+            "en": "has broader"
+          },
+          "description": {
+            "en": "Relates a concept to a concept that is more general in meaning."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Concept",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Concept"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/2004/02/skos/core#broader",
+            "label-en": "has broader",
+            "definition-en": "NOTE$ea_notes=Relates a concept to a concept that is more general in meaning."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#definition",
+          "name": "definition",
+          "sort": "definition",
+          "label": {
+            "en": "definition"
+          },
+          "description": {
+            "en": "A statement or formal explanation of the meaning of a concept."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Text",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Text",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Text"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/2004/02/skos/core#definition",
+            "label-en": "definition",
+            "definition-en": "A statement or formal explanation of the meaning of a concept."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+          "name": "isInScheme",
+          "sort": "is in scheme",
+          "label": {
+            "en": "is in scheme"
+          },
+          "description": {
+            "en": "Relates a resource (for example a concept) to a concept scheme in which it is included."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ConceptScheme",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Concept Scheme",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "range_label": {
+                "en": "Concept Scheme"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "is in scheme",
+            "definition-en": "NOTE$ea_notes=Relates a resource (for example a concept) to a concept scheme in which it is included.",
+            "uri": "http://www.w3.org/2004/02/skos/core#inScheme"
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "name": "preferredLabel",
+          "sort": "preferred label",
+          "label": {
+            "en": "preferred label"
+          },
+          "description": {
+            "en": "The preferred lexical label for a resource, in a given language."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Text",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Text",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Text"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "label-en": "preferred label",
+            "definition-en": "The preferred lexical label for a resource, in a given language."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+          "name": "isTopConceptInScheme",
+          "sort": "is top concept in scheme",
+          "label": {
+            "en": "is top concept in scheme"
+          },
+          "description": {
+            "en": "Relates a concept to the concept scheme that it is a top level concept of."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ConceptScheme",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Concept Scheme",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "range_label": {
+                "en": "Concept Scheme"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "definition-en": "NOTE$ea_notes=Relates a concept to the concept scheme that it is a top level concept of.",
+            "label-en": "is top concept in scheme"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "name": "ConceptScheme",
+      "label": {
+        "en": "Concept Scheme"
+      },
+      "sort": "Concept Scheme",
+      "description": {
+        "en": "A set of concepts, optionally including statements about semantic relationships between those concepts."
+      },
+      "usage": {
+        "en": "A concept scheme may be defined to include concepts from different sources."
+      },
+      "parents": [],
+      "rawTags": {
+        "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "label-en": "Concept Scheme",
+        "definition-en": "A set of concepts, optionally including statements about semantic relationships between those concepts.",
+        "usageNote-en": "A concept scheme may be defined to include concepts from different sources.",
+        "class-usage-scope": "main"
+      },
+      "properties": [
+        {
+          "uri": "http://purl.org/dc/terms/created",
+          "name": "dateCreated",
+          "sort": "date created",
+          "label": {
+            "en": "date created"
+          },
+          "description": {
+            "en": "Date of creation of the resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Date",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#date"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Double",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#date",
+              "range_label": {
+                "en": "Double"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://purl.org/dc/terms/created",
+            "label-en": "date created",
+            "definition-en": "Date of creation of the resource."
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/identifier",
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
+          "description": {
+            "en": "An unambiguous reference to the resource within a given context."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Double",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "Double"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://purl.org/dc/terms/identifier",
+            "label-en": "identifier",
+            "definition-en": "An unambiguous reference to the resource within a given context."
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/isReplacedBy",
+          "name": "isReplacedBy",
+          "sort": "is replaced by",
+          "label": {
+            "en": "is replaced by"
+          },
+          "description": {
+            "en": "A related resource that supplants, displaces, or supersedes the described resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ConceptScheme",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Concept Scheme",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "range_label": {
+                "en": "Concept Scheme"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "NOTE$ea_notes=A related resource that supplants, displaces, or supersedes the described resource.",
+            "uri": "http://purl.org/dc/terms/isReplacedBy",
+            "label-en": "is replaced by"
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/issued",
+          "name": "dateIssued",
+          "sort": "date issued",
+          "label": {
+            "en": "date issued"
+          },
+          "description": {
+            "en": "Date of formal issuance of the resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Date",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#date"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Double",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#date",
+              "range_label": {
+                "en": "Double"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://purl.org/dc/terms/issued",
+            "label-en": "date issued",
+            "definition-en": "Date of formal issuance of the resource."
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/modified",
+          "name": "dateModified",
+          "sort": "date modified",
+          "label": {
+            "en": "date modified"
+          },
+          "description": {
+            "en": "Date on which the resource was changed."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Date",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#date"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Double",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#date",
+              "range_label": {
+                "en": "Double"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://purl.org/dc/terms/modified",
+            "label-en": "date modified",
+            "definition-en": "Date on which the resource was changed."
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/replaces",
+          "name": "replaces",
+          "sort": "replaces",
+          "label": {
+            "en": "replaces"
+          },
+          "description": {
+            "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ConceptScheme",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Concept Scheme",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "range_label": {
+                "en": "Concept Scheme"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "NOTE$ea_notes=A related resource that is supplanted, displaced, or superseded by the described resource.",
+            "label-en": "replaces",
+            "uri": "http://purl.org/dc/terms/replaces"
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2002/07/owl#versionInfo",
+          "name": "versionInfo",
+          "sort": "version info",
+          "label": {
+            "en": "version info"
+          },
+          "description": {
+            "en": "This element contains a string giving information about this version such as RCS/CVS keywords."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Double",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "Double"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "This element contains a string giving information about this version such as RCS/CVS keywords.",
+            "uri": "http://www.w3.org/2002/07/owl#versionInfo",
+            "label-en": "version info"
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+          "name": "hasTopConcept",
+          "sort": "has top concept",
+          "label": {
+            "en": "has top concept"
+          },
+          "description": {
+            "en": "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Concept",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Concept",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Concept"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "definition-en": "NOTE$ea_notes=Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies.",
+            "label-en": "has top concept"
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "name": "preferredLabel",
+          "sort": "preferred label",
+          "label": {
+            "en": "preferred label"
+          },
+          "description": {
+            "en": "The preferred lexical label for a resource, in a given language."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Text",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Text",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Text"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "preferred label",
+            "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "definition-en": "The preferred lexical label for a resource, in a given language."
+          }
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "contributors": [
+    {
+      "role": "E",
+      "first_name": "Emidio",
+      "last_name": "Stani",
+      "affiliation": {
+        "name": "PwC EU Services"
+      }
+    }
+  ],
+  "datatypes": [
+    {
+      "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "name": "Text",
+      "label": {
+        "en": "Text"
+      },
+      "sort": "Text",
+      "description": {
+        "en": "The text data type is a combination of a string and a language identifier."
+      },
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-en": "Text",
+        "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "definition-en": "The text data type is a combination of a string and a language identifier.",
+        "literal": "true",
+        "class-usage-scope": "datatype"
+      },
+      "properties": []
+    },
+    {
+      "uri": "http://www.w3.org/2001/XMLSchema#double",
+      "name": "Double",
+      "label": {
+        "en": "Double"
+      },
+      "sort": "Double",
+      "description": {
+        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+      },
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat",
+        "label-en": "Double",
+        "uri": "http://www.w3.org/2001/XMLSchema#double",
+        "class-usage-scope": "datatype"
+      },
+      "properties": []
+    },
+    {
+      "uri": "http://www.w3.org/2001/XMLSchema#double",
+      "name": "Double",
+      "label": {
+        "en": "Double"
+      },
+      "sort": "Double",
+      "description": {
+        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+      },
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat",
+        "label-en": "Double",
+        "uri": "http://www.w3.org/2001/XMLSchema#double",
+        "class-usage-scope": "datatype"
+      },
+      "properties": []
+    }
+  ],
+  "parents": [],
+  "documentroot": "/D4WTA-AP/releases/1.0.0/"
+}
