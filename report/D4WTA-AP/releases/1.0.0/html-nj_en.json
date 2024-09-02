@@ -17,10 +17,10 @@
     },
     "status": "Draft",
     "statuslabel": "Onbekend",
-    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/743d63cbf1afa6f5e9ff2efff47fa7c6683b25af",
-    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/743d63cbf1afa6f5e9ff2efff47fa7c6683b25af/CHANGELOG",
+    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/201d02cadd0190d7ff8526984f36efd9e7cb291c",
+    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/201d02cadd0190d7ff8526984f36efd9e7cb291c/CHANGELOG",
     "feedbackurl": "https://github.com/EmidioStani/D4WTA-AP/issues",
-    "standaardregisterurl": "https://github.com/EmidioStani/CPSV-AP/blob/master/releases/1.0.0/Changelog.md",
+    "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
     "usesVocs": [],
     "usesAPs": []
   },

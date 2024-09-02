@@ -87,12 +87,12 @@
   "contributors-column": "D4WTA-AP",
   "contributors-file": "stakeholders.csv",
   "diagram": "Taxonomy",
-  "documentcommit": "743d63cbf1afa6f5e9ff2efff47fa7c6683b25af",
+  "documentcommit": "201d02cadd0190d7ff8526984f36efd9e7cb291c",
   "documentconfig": {
     "editorDocumentroot": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0",
     "statuslabel": "SEMIC Candidate Recommendation"
   },
-  "dummy": "10",
+  "dummy": "11",
   "eap": "Data4Wallonia.eap",
   "editors": [
     {
@@ -379,111 +379,6 @@
     {
       "@id": "http://purl.org/dc/terms/isReplacedBy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
-      "ap-definition-en": {
-        "en": "A related resource that supplants, displaces, or supersedes the described resource."
-      },
-      "ap-label-en": {
-        "en": "is replaced by"
-      },
-      "codelist": [],
-      "definition": {
-        "en": "A related resource that supplants, displaces, or supersedes the described resource."
-      },
-      "domain": [
-        {
-          "EA-Name": "Concept",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "label-en",
-            "note": "is replaced by",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://purl.org/dc/terms/isReplacedBy",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "NOTE$ea_notes=A related resource that supplants, displaces, or supersedes the described resource.",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
-        "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
-        "EA-Name": "isReplacedBy",
-        "EA-Package": "",
-        "EA-Range": "Concept",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
-          "EA-Name": "Concept",
-          "EA-Package": "skos",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "is replaced by",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://purl.org/dc/terms/isReplacedBy",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "NOTE$ea_notes=A related resource that supplants, displaces, or supersedes the described resource.",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "A related resource that supplants, displaces, or supersedes the described resource."
-        },
-        "ap-label-en": {
-          "en": "is replaced by"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "A related resource that supplants, displaces, or supersedes the described resource."
-        },
-        "derived": "false",
-        "destRole": "isReplacedBy",
-        "label": {
-          "en": "is replaced by"
-        },
-        "sourceRole": "replaces",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "is replaced by"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "isReplacedBy",
-      "range": [
-        {
-          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
-          "EA-Name": "Concept",
-          "EA-Package": "skos",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/isReplacedBy",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
       "ap-definition-en": {
         "en": "A related resource that supplants, displaces, or supersedes the described resource."
@@ -583,6 +478,111 @@
           "EA-Name": "ConceptScheme",
           "EA-Package": "skos",
           "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isReplacedBy",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+      "ap-definition-en": {
+        "en": "A related resource that supplants, displaces, or supersedes the described resource."
+      },
+      "ap-label-en": {
+        "en": "is replaced by"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "A related resource that supplants, displaces, or supersedes the described resource."
+      },
+      "domain": [
+        {
+          "EA-Name": "Concept",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "is replaced by",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://purl.org/dc/terms/isReplacedBy",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "NOTE$ea_notes=A related resource that supplants, displaces, or supersedes the described resource.",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+        "EA-Name": "isReplacedBy",
+        "EA-Package": "",
+        "EA-Range": "Concept",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Name": "Concept",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "is replaced by",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://purl.org/dc/terms/isReplacedBy",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "NOTE$ea_notes=A related resource that supplants, displaces, or supersedes the described resource.",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A related resource that supplants, displaces, or supersedes the described resource."
+        },
+        "ap-label-en": {
+          "en": "is replaced by"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A related resource that supplants, displaces, or supersedes the described resource."
+        },
+        "derived": "false",
+        "destRole": "isReplacedBy",
+        "label": {
+          "en": "is replaced by"
+        },
+        "sourceRole": "replaces",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "is replaced by"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "isReplacedBy",
+      "range": [
+        {
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Name": "Concept",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ]
     },
@@ -755,111 +755,6 @@
     {
       "@id": "http://purl.org/dc/terms/replaces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
-      "ap-definition-en": {
-        "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
-      },
-      "ap-label-en": {
-        "en": "replaces"
-      },
-      "codelist": [],
-      "definition": {
-        "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
-      },
-      "domain": [
-        {
-          "EA-Name": "Concept",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "label-en",
-            "note": "replaces",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://purl.org/dc/terms/replaces",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "NOTE$ea_notes=A related resource that is supplanted, displaced, or superseded by the described resource.",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
-        "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
-        "EA-Name": "replaces",
-        "EA-Package": "",
-        "EA-Range": "Concept",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
-          "EA-Name": "Concept",
-          "EA-Package": "skos",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "replaces",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://purl.org/dc/terms/replaces",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "NOTE$ea_notes=A related resource that is supplanted, displaced, or superseded by the described resource.",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
-        },
-        "ap-label-en": {
-          "en": "replaces"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
-        },
-        "derived": "false",
-        "destRole": "replaces",
-        "label": {
-          "en": "replaces"
-        },
-        "sourceRole": "isReplacedBy",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "replaces"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "replaces",
-      "range": [
-        {
-          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
-          "EA-Name": "Concept",
-          "EA-Package": "skos",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/replaces",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
       "ap-definition-en": {
         "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
@@ -959,6 +854,111 @@
           "EA-Name": "ConceptScheme",
           "EA-Package": "skos",
           "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/replaces",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+      "ap-definition-en": {
+        "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
+      },
+      "ap-label-en": {
+        "en": "replaces"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
+      },
+      "domain": [
+        {
+          "EA-Name": "Concept",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "replaces",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://purl.org/dc/terms/replaces",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "NOTE$ea_notes=A related resource that is supplanted, displaced, or superseded by the described resource.",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+        "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+        "EA-Name": "replaces",
+        "EA-Package": "",
+        "EA-Range": "Concept",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Name": "Concept",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "replaces",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://purl.org/dc/terms/replaces",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "NOTE$ea_notes=A related resource that is supplanted, displaced, or superseded by the described resource.",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
+        },
+        "ap-label-en": {
+          "en": "replaces"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
+        },
+        "derived": "false",
+        "destRole": "replaces",
+        "label": {
+          "en": "replaces"
+        },
+        "sourceRole": "isReplacedBy",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "replaces"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "replaces",
+      "range": [
+        {
+          "EA-GUID": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
+          "EA-Name": "Concept",
+          "EA-Package": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ]
     },
@@ -2289,10 +2289,10 @@
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
   "repourl": "https://github.com/EmidioStani/D4WTA-AP/tree/master/releases/1.0.0",
   "site": "site-skeleton/d4wta-ap",
-  "standaardregisterurl": "https://github.com/EmidioStani/CPSV-AP/blob/master/releases/1.0.0/Changelog.md",
+  "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
   "template": "d4wta-ap_en.j2",
   "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
-  "toolchaincommit": "55839d8320339fc91a3ea291fda54494806e9736",
+  "toolchaincommit": "6dd4d50680324d1f9576b872bd1d2e1f18968ad5",
   "toolchainversion": "3",
   "translation": [
     {
