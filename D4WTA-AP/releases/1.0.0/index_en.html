@@ -266,7 +266,7 @@ This specification uses the following prefixes to shorten the URIs for readibili
                         <p>
                             And supported by these datatypes:
                             <br />
-                            | <a href="#Double">Double</a> | <a href="#Double">Double</a> | <a href="#Text">Text</a> |
+                            | <a href="#Date">Date</a> | <a href="#String">String</a> | <a href="#Text">Text</a> |
                         </p>
                 
     </div>
@@ -784,7 +784,7 @@ The main entities are those that form the core of the Application Profile.
                                 <td>
                                     
                                         
-                                            <a href="#Double" data-placement="right">Double</a>
+                                            <a href="#String" data-placement="right">String</a>
                                         
                                     
                                 </td>
@@ -923,7 +923,7 @@ The main entities are those that form the core of the Application Profile.
                                 <td>
                                     
                                         
-                                            <a href="#Double" data-placement="right">Double</a>
+                                            <a href="#Date" data-placement="right">Date</a>
                                         
                                     
                                 </td>
@@ -966,7 +966,7 @@ The main entities are those that form the core of the Application Profile.
                                 <td>
                                     
                                         
-                                            <a href="#Double" data-placement="right">Double</a>
+                                            <a href="#Date" data-placement="right">Date</a>
                                         
                                     
                                 </td>
@@ -1009,7 +1009,7 @@ The main entities are those that form the core of the Application Profile.
                                 <td>
                                     
                                         
-                                            <a href="#Double" data-placement="right">Double</a>
+                                            <a href="#Date" data-placement="right">Date</a>
                                         
                                     
                                 </td>
@@ -1095,7 +1095,7 @@ The main entities are those that form the core of the Application Profile.
                                 <td>
                                     
                                         
-                                            <a href="#Double" data-placement="right">Double</a>
+                                            <a href="#String" data-placement="right">String</a>
                                         
                                     
                                 </td>
@@ -1267,7 +1267,7 @@ The main entities are those that form the core of the Application Profile.
                                 <td>
                                     
                                         
-                                            <a href="#Double" data-placement="right">Double</a>
+                                            <a href="#String" data-placement="right">String</a>
                                         
                                     
                                 </td>
@@ -1341,36 +1341,36 @@ They are included in the Application Profile because they form the range of prop
 	    <tbody class="supertype">
             
 		<tr><td>
-                   <a href="https://github.com/EmidioStani/D4WTA-AP/issues/new?title=Issue%20for%20Double&body=Explain%20your%20issue"}}>
+                   <a href="https://github.com/EmidioStani/D4WTA-AP/issues/new?title=Issue%20for%20Date&body=Explain%20your%20issue"}}>
                      <img src="html/callout.png" loading="lazy" alt="(create issue)" width="50" height="50"/>
 		   </a>
 		</td><td>
                 
-                    <div id="Double">
+                    <div id="Date">
                         <a href="http://www.w3.org/2001/XMLSchema#double"
                            data-toggle="tooltip"
                            data-content="http://www.w3.org/2001/XMLSchema#double"
-                           data-placement="right">Double</a>
+                           data-placement="right">Date</a>
                     </div>
                 
 		</td><td>
-                    The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat
+                    The ·value space· of date consists of top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day (in each timezone), i.e. &#39;00:00:00&#39;, up to but not including &#39;24:00:00&#39; (which is identical with &#39;00:00:00&#39; of the next day). For nontimezoned values, the top-open intervals disjointly cover the nontimezoned timeline, one per day. For timezoned values, the intervals begin at every minute and therefore overlap.
 		</td></tr>
 		<tr><td>
-                   <a href="https://github.com/EmidioStani/D4WTA-AP/issues/new?title=Issue%20for%20Double&body=Explain%20your%20issue"}}>
+                   <a href="https://github.com/EmidioStani/D4WTA-AP/issues/new?title=Issue%20for%20String&body=Explain%20your%20issue"}}>
                      <img src="html/callout.png" loading="lazy" alt="(create issue)" width="50" height="50"/>
 		   </a>
 		</td><td>
                 
-                    <div id="Double">
+                    <div id="String">
                         <a href="http://www.w3.org/2001/XMLSchema#double"
                            data-toggle="tooltip"
                            data-content="http://www.w3.org/2001/XMLSchema#double"
-                           data-placement="right">Double</a>
+                           data-placement="right">String</a>
                     </div>
                 
 		</td><td>
-                    The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat
+                    The string datatype represents character strings in XML. The ·value space· of string is the set of finite-length sequences of characters (as defined in [XML 1.0 (Second Edition)]) that ·match· the Char production from [XML 1.0 (Second Edition)]. A character is an atomic unit of communication; it is not further specified except to note that every character has a corresponding Universal Character Set code point, which is an integer.
 		</td></tr>
 		<tr><td>
                    <a href="https://github.com/EmidioStani/D4WTA-AP/issues/new?title=Issue%20for%20Text&body=Explain%20your%20issue"}}>
@@ -1848,37 +1848,12 @@ The properties are indicated as <it>mandatory, recommended, optional</it> and <i
 
 
 	    var prefixes = [ 
-{'pref':'adms:', 'ns': 'http://www.w3.org/ns/adms#'},
-{'pref':'dcat:', 'ns': 'http://www.w3.org/ns/dcat#'},
-{'pref':'dcatap:', 'ns': 'http://data.europa.eu/r5r/'},
 {'pref':'dct:', 'ns': 'http://purl.org/dc/terms/'},
-{'pref':'dctype:', 'ns': 'http://purl.org/dc/dcmitype/'},
-{'pref':'cpsv:', 'ns': 'http://purl.org/vocab/cpsv#'},
-{'pref':'foaf:', 'ns': 'http://xmlns.com/foaf/0.1/'},
-{'pref':'locn:', 'ns': 'http://www.w3.org/ns/locn#'},
-{'pref':'odrl:', 'ns': 'http://www.w3.org/ns/odrl/2/'},
+{'pref':'euvoc', 'ns': 'http://publications.europa.eu/ontology/euvoc'},
 {'pref':'owl:', 'ns': 'http://www.w3.org/2002/07/owl#'},
-{'pref':'prov:', 'ns': 'http://www.w3.org/ns/prov#'},
 {'pref':'rdf:', 'ns': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'},
-{'pref':'rdfs:', 'ns': 'http://www.w3.org/2000/01/rdf-schema#'},
 {'pref':'skos:', 'ns': 'http://www.w3.org/2004/02/skos/core#'},
-{'pref':'spdx:', 'ns': 'http://spdx.org/rdf/terms#'},
-{'pref':'time:', 'ns': 'http://www.w3.org/2006/time#'},
-{'pref':'vcard:', 'ns': 'http://www.w3.org/2006/vcard/ns#'},
-{'pref':'eli:', 'ns' : 'http://data.europa.eu/eli/ontology#'},
-{'pref':'xsd:', 'ns': 'http://www.w3.org/2001/XMLSchema#'},
-{'pref':'ad:', 'ns': 'http://inspire.ec.europa.eu/ont/ad#'},
-{'pref':'cv:', 'ns': 'http://data.europa.eu/m8g/'},
-{'pref':'geo:', 'ns': 'http://www.opengis.net/ont/geosparql#'},
-{'pref':'schema:', 'ns': 'https://schema.org/'},
-{'pref':'org:', 'ns': 'http://www.w3.org/ns/org#'},
-{'pref':'person:', 'ns': 'http://www.w3.org/ns/person#'},
-{'pref':'legal:', 'ns': 'http://www.w3.org/ns/legal#'},
-{'pref':'atu:', 'ns': 'http://data.europa.eu/88u/dataset/'},
-{'pref':'xhv:', 'ns': 'http://www.w3.org/1999/xhtml/vocab#'},
-{'pref':'epo:', 'ns': 'http://data.europa.eu/a4g/ontology#'},
-
-
+{'pref':'xsd:', 'ns': 'http://www.w3.org/2001/XMLSchema#'}
 				];
 
 	    function shorturl (url) {

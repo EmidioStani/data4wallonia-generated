@@ -189,16 +189,16 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+        "en": "The ·value space· of date consists of top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day (in each timezone), i.e. '00:00:00', up to but not including '24:00:00' (which is identical with '00:00:00' of the next day). For nontimezoned values, the top-open intervals disjointly cover the nontimezoned timeline, one per day. For timezoned values, the intervals begin at every minute and therefore overlap."
       },
       "ap-label-en": {
-        "en": "Double"
+        "en": "Date"
       },
       "definition": {
-        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+        "en": "The ·value space· of date consists of top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day (in each timezone), i.e. '00:00:00', up to but not including '24:00:00' (which is identical with '00:00:00' of the next day). For nontimezoned values, the top-open intervals disjointly cover the nontimezoned timeline, one per day. For timezoned values, the intervals begin at every minute and therefore overlap."
       },
       "label": {
-        "en": "Double"
+        "en": "Date"
       },
       "extra": {
         "EA-Name": "Date",
@@ -209,29 +209,29 @@
         "EA-Parents2": [],
         "parentclasses": "",
         "label": {
-          "en": "Double"
+          "en": "Date"
         },
         "definition": {
-          "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+          "en": "The ·value space· of date consists of top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day (in each timezone), i.e. '00:00:00', up to but not including '24:00:00' (which is identical with '00:00:00' of the next day). For nontimezoned values, the top-open intervals disjointly cover the nontimezoned timeline, one per day. For timezoned values, the intervals begin at every minute and therefore overlap."
         },
         "usage": "",
         "ap-label-en": {
-          "en": "Double"
+          "en": "Date"
         },
         "ap-definition-en": {
-          "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+          "en": "The ·value space· of date consists of top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day (in each timezone), i.e. '00:00:00', up to but not including '24:00:00' (which is identical with '00:00:00' of the next day). For nontimezoned values, the top-open intervals disjointly cover the nontimezoned timeline, one per day. For timezoned values, the intervals begin at every minute and therefore overlap."
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
         "RawTags": [
           {
             "key": "definition-en",
-            "value": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat",
-            "note": "null"
+            "value": "NOTE",
+            "note": "The ·value space· of date consists of top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day (in each timezone), i.e. '00:00:00', up to but not including '24:00:00' (which is identical with '00:00:00' of the next day). For nontimezoned values, the top-open intervals disjointly cover the nontimezoned timeline, one per day. For timezoned values, the intervals begin at every minute and therefore overlap."
           },
           {
             "key": "label-en",
-            "value": "Double",
+            "value": "Date",
             "note": "null"
           },
           {
@@ -243,27 +243,32 @@
             "key": "class-usage-scope",
             "value": "datatype",
             "note": "null"
+          },
+          {
+            "key": "literal",
+            "value": "true",
+            "note": "null"
           }
         ],
         "Scope": "NOTHING"
       },
-      "name": "Double"
+      "name": "Date"
     },
     {
       "@id": "http://www.w3.org/2001/XMLSchema#double",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
       "ap-definition-en": {
-        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+        "en": "The string datatype represents character strings in XML. The ·value space· of string is the set of finite-length sequences of characters (as defined in [XML 1.0 (Second Edition)]) that ·match· the Char production from [XML 1.0 (Second Edition)]. A character is an atomic unit of communication; it is not further specified except to note that every character has a corresponding Universal Character Set code point, which is an integer."
       },
       "ap-label-en": {
-        "en": "Double"
+        "en": "String"
       },
       "definition": {
-        "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+        "en": "The string datatype represents character strings in XML. The ·value space· of string is the set of finite-length sequences of characters (as defined in [XML 1.0 (Second Edition)]) that ·match· the Char production from [XML 1.0 (Second Edition)]. A character is an atomic unit of communication; it is not further specified except to note that every character has a corresponding Universal Character Set code point, which is an integer."
       },
       "label": {
-        "en": "Double"
+        "en": "String"
       },
       "extra": {
         "EA-Name": "String",
@@ -274,29 +279,29 @@
         "EA-Parents2": [],
         "parentclasses": "",
         "label": {
-          "en": "Double"
+          "en": "String"
         },
         "definition": {
-          "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+          "en": "The string datatype represents character strings in XML. The ·value space· of string is the set of finite-length sequences of characters (as defined in [XML 1.0 (Second Edition)]) that ·match· the Char production from [XML 1.0 (Second Edition)]. A character is an atomic unit of communication; it is not further specified except to note that every character has a corresponding Universal Character Set code point, which is an integer."
         },
         "usage": "",
         "ap-label-en": {
-          "en": "Double"
+          "en": "String"
         },
         "ap-definition-en": {
-          "en": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat"
+          "en": "The string datatype represents character strings in XML. The ·value space· of string is the set of finite-length sequences of characters (as defined in [XML 1.0 (Second Edition)]) that ·match· the Char production from [XML 1.0 (Second Edition)]. A character is an atomic unit of communication; it is not further specified except to note that every character has a corresponding Universal Character Set code point, which is an integer."
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
         "RawTags": [
           {
             "key": "definition-en",
-            "value": "The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximat",
-            "note": "null"
+            "value": "NOTE",
+            "note": "The string datatype represents character strings in XML. The ·value space· of string is the set of finite-length sequences of characters (as defined in [XML 1.0 (Second Edition)]) that ·match· the Char production from [XML 1.0 (Second Edition)]. A character is an atomic unit of communication; it is not further specified except to note that every character has a corresponding Universal Character Set code point, which is an integer."
           },
           {
             "key": "label-en",
-            "value": "Double",
+            "value": "String",
             "note": "null"
           },
           {
@@ -308,11 +313,16 @@
             "key": "class-usage-scope",
             "value": "datatype",
             "note": "null"
+          },
+          {
+            "key": "literal",
+            "value": "true",
+            "note": "null"
           }
         ],
         "Scope": "NOTHING"
       },
-      "name": "Double"
+      "name": "String"
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2272,14 +2282,14 @@
   },
   "config": "config/config-ap.json",
   "branchtag": "ReSpecCV",
-  "dummy": "11",
+  "dummy": "12",
   "filename": "config/data4wallonia.json",
   "navigation": {
     "prev": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0"
   },
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
   "urlref": "/D4WTA-AP/releases/1.0.0/",
-  "documentcommit": "201d02cadd0190d7ff8526984f36efd9e7cb291c",
-  "toolchaincommit": "6dd4d50680324d1f9576b872bd1d2e1f18968ad5",
+  "documentcommit": "8e54f7a6a3bd3a557d9f5d707b7bd572e4cca5b5",
+  "toolchaincommit": "9a6aeea2dc0e275c2b30b65445c4f4695173add8",
   "hostname": "https://EmidioStani.github.io"
 }
