@@ -1416,6 +1416,32 @@ The main entities are those that form the core of the Application Profile.
 <section class="informative">
 	<h2>Usage Guidelines</h2>
     <section class="informative">
+<h2>Governance</h2>
+
+<h3>Versioning governance</h3>
+All specifications produced in Data4Wallonia will follow the versioning rule described by the SEMIC Style Guide rule 
+<a href="https://semiceu.github.io/style-guide/1.0.0/gc-publication-conventions.html#sec:pc-r3">PC-R3</a>.
+<p/>
+The serialisation will have:
+<ul>
+<li>a dct:isReplacedBy referencing the new assets used instead and</li>
+<li> an euvoc:status  indicating its deprecated <a href="http://publications.europa.eu/resource/authority/concept-status/DEPRECATED">status</a>.</li>
+</ul>
+<p/>
+
+<h3>Lexicalisation rules</h3>
+
+In order to adhere to the SEMIC Style Guide rule <a href="https://semiceu.github.io/style-guide/1.0.0/gc-semantic-conventions.html#sec:sc-r3">SC-R3</a> a specification requires formal lexicalisation rules.
+The Style Guide proposes two options either by using RDFS or SKOS lexicalisation.
+<p/>
+Data4Wallonia uses and will use the SKOS lexicalisation for the taxonomy at least. More specifically:
+<ul>
+<li> skos:preflabel is used to provide a human-readable version of a resource's name.</li>
+<li> skos:altLabel is used to provide an alternative human-readable version of a resource's name.</li>
+</ul>
+
+</section>
+    <section class="informative">
   <h2>Support for implementation</h2>
 
 The following section provides support for implementing the Data4Wallonia Taxonomy Application Profile (D4WTA-AP).
@@ -1447,6 +1473,13 @@ Each implementation happens within a context, and that context is beyond the SHA
 <p/>
 The shapes can be found <a href="./shacl/d4wta-ap-SHACL.ttl">here</a>.
 
+<section class="informative">
+    <h2> Additional constraints </h2>
+        
+	<p> No additionalconstraints defined </p>
+        
+</section>
+
 <!--
 <h3>RDF representation</h3>
 The RDF representation of the Data4Wallonia Taxonomy Application Profile (D4WTA-AP) is available <a href="./rdf/d4wta-ap.ttl">here</a>.
@@ -1461,40 +1494,12 @@ A mapping towards Schema.org can be found <a href="https://github.com/SEMICeu/Se
 -->
 
 </section>
-    <section class="informative">
-<h2>Governance</h2>
-
-<h3>Versioning governance</h3>
-All specifications produced in Data4Wallonia will follow the versioning rule described by the SEMIC Style Guide rule 
-<a href="https://semiceu.github.io/style-guide/1.0.0/gc-publication-conventions.html#sec:pc-r3">PC-R3</a>.
-<p/>
-The serialisation will have:
-<ul>
-<li>a dct:isReplacedBy referencing the new assets used instead and</li>
-<li> an euvoc:status  indicating its deprecated <a href="http://publications.europa.eu/resource/authority/concept-status/DEPRECATED">status</a>.</li>
-</ul>
-<p/>
-
-<h3>Lexicalisation rules</h3>
-
-In order to adhere to the SEMIC Style Guide rule <a href="https://semiceu.github.io/style-guide/1.0.0/gc-semantic-conventions.html#sec:sc-r3">SC-R3</a> a specification requires formal lexicalisation rules.
-The Style Guide proposes two options either by using RDFS or SKOS lexicalisation.
-<p/>
-Data4Wallonia uses and will use the SKOS lexicalisation for the taxonomy at least. More specifically:
-<ul>
-<li> skos:preflabel is used to provide a human-readable version of a resource's name.</li>
-<li> skos:altLabel is used to provide an alternative human-readable version of a resource's name.</li>
-</ul>
-
-</section>
 </section>
  
 
 
 
  
-
-
 
 <section id="quick-reference" class="appendix">
 
