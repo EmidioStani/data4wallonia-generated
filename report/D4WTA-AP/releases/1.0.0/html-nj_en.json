@@ -13,12 +13,12 @@
     "documenttype": "ap",
     "documentconfig": {
       "editorDocumentroot": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0",
-      "statuslabel": "SEMIC Candidate Recommendation"
+      "statuslabel": "Draft"
     },
     "status": "Draft",
     "statuslabel": "Onbekend",
-    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/87009f6e20d5b9ae8d077295ff781af70f0a39cf",
-    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/87009f6e20d5b9ae8d077295ff781af70f0a39cf/CHANGELOG",
+    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/37324e42b231df27f82319c9543988f9917fbe14",
+    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/37324e42b231df27f82319c9543988f9917fbe14/CHANGELOG",
     "feedbackurl": "https://github.com/EmidioStani/D4WTA-AP/issues",
     "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
     "usesVocs": [],

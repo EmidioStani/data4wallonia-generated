@@ -142,7 +142,7 @@
 
 <section id="abstract">
     <h2>Abstract</h2>
-D4WTA-AP provides a minimal common basis within Wallonia to describe a taxonomy.
+D4WTA-AP provides a minimal common basis within Data4Wallonia to describe a taxonomy.
 </section>
 
 
@@ -174,7 +174,7 @@ D4WTA-AP provides a minimal common basis within Wallonia to describe a taxonomy.
 <section id="specstatus">
     <h2>Status</h2>
         <p>
-            This Application Profile has the status SEMIC Candidate Recommendation published at 2024-08-29.
+            This Application Profile has the status Draft published at 2024-08-29.
         </p>
         <p>
             Information about the process and the decisions involved in the creation of this specification are consultable at the <a href="https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md">Changelog</a>.
@@ -256,15 +256,10 @@ This specification uses the following prefixes to shorten the URIs for readibili
 			      <a href="#Concept">Concept</a> |
 			      <a href="#ConceptScheme">Concept Scheme</a> |
                         </p>
-                        <p>
-                            The main entities are supported by:
-                            <br />
-                            |
-                        </p>
                 
                 
                         <p>
-                            And supported by these datatypes:
+                            The main entities are supported by these datatypes:
                             <br />
                             | <a href="#Date">Date</a> | <a href="#String">String</a> | <a href="#Text">Text</a> |
                         </p>
@@ -1302,22 +1297,6 @@ The main entities are those that form the core of the Application Profile.
 
 </section>
 
-<section>
-<h2>
-   Supportive Entities
-</h2>
-The supportive entities are supporting the main entities in the Application Profile. 
-They are included in the Application Profile because they form the range of properties.
-
-
-
-
-
-
-
-
-</section>
-
     <section>
         <h2>
             Datatypes
@@ -1468,13 +1447,14 @@ Each implementation happens within a context, and that context is beyond the SHA
 <p/>
 The shapes can be found <a href="./shacl/d4wta-ap-SHACL.ttl">here</a>.
 
+<!--
 <h3>RDF representation</h3>
 The RDF representation of the Data4Wallonia Taxonomy Application Profile (D4WTA-AP) is available <a href="./rdf/d4wta-ap.ttl">here</a>.
 
 <h3>UML representation</h3>
 The UML representation from which the Data4Wallonia Taxonomy Application Profile (D4WTA-AP) has been build is available <a href="./UML">here</a>.
 
-<!--
+
 <h3>Mapping</h3>
 A mapping towards Schema.org can be found <a href="https://github.com/SEMICeu/Semantic-Mappings/tree/main/Core%20Location">here</a>
 <p/>
@@ -1485,35 +1465,14 @@ A mapping towards Schema.org can be found <a href="https://github.com/SEMICeu/Se
 <h2>Governance</h2>
 
 <h3>Versioning governance</h3>
-All specifications produced in SEMIC will follow the versioning rule described by the SEMIC Style Guide rule 
+All specifications produced in Data4Wallonia will follow the versioning rule described by the SEMIC Style Guide rule 
 <a href="https://semiceu.github.io/style-guide/1.0.0/gc-publication-conventions.html#sec:pc-r3">PC-R3</a>.
-In case a SEMIC asset is deprecated the asset will remain available through its PURI.
 <p/>
 The serialisation will have:
 <ul>
 <li>a dct:isReplacedBy referencing the new assets used instead and</li>
-<li> an adms:status  indicating its deprecated <a href="http://publications.europa.eu/resource/authority/concept-status/DEPRECATED">status</a>.</li>
+<li> an euvoc:status  indicating its deprecated <a href="http://publications.europa.eu/resource/authority/concept-status/DEPRECATED">status</a>.</li>
 </ul>
-<p/>
-
-<h3>Governance requirements for re-used assets</h3>
-In order to adhere to the SEMIC Style Guide rule <a href="https://semiceu.github.io/style-guide/1.0.0/gc-general-conventions.html#sec:gc-r2">GC-R2</a>
- a specification should have quality and governance standards for the assets that are being reused.
-<p/>
-In order for an asset to be considered for reuse within a SEMIC specification it can be requested by a community member or it requires to adhere to the following requirements:
-<ul>
-<li> The asset is part of a recommendation by a major standards body or an EU institution.</li>
-<li> The asset is actively being maintained.</li>
-</ul>
-<p/>
-
-After being taken into consideration the asset will be validated in three steps:
-<ul>
-<li> Syntax validation will be performed on the relevant artefacts.</li>
-<li> Constraint validation will be performed on the relevant artefacts.</li>
-<li> The PURI will be validated.</li>
-</ul>
-Once considered and validated an asset can be adopted if it is approved by the community.
 <p/>
 
 <h3>Lexicalisation rules</h3>
@@ -1521,10 +1480,10 @@ Once considered and validated an asset can be adopted if it is approved by the c
 In order to adhere to the SEMIC Style Guide rule <a href="https://semiceu.github.io/style-guide/1.0.0/gc-semantic-conventions.html#sec:sc-r3">SC-R3</a> a specification requires formal lexicalisation rules.
 The Style Guide proposes two options either by using RDFS or SKOS lexicalisation.
 <p/>
-SEMIC uses and will use the RDFS lexicalisation for all of its specifications. More specifically:
+Data4Wallonia uses and will use the SKOS lexicalisation for the taxonomy at least. More specifically:
 <ul>
-<li> rdfs:label is used to provide a human-readable version of a resource's name.</li>
-<li> The usage of certain resource can be clarified in a skos:usageNote.</li>
+<li> skos:preflabel is used to provide a human-readable version of a resource's name.</li>
+<li> skos:altLabel is used to provide an alternative human-readable version of a resource's name.</li>
 </ul>
 
 </section>
