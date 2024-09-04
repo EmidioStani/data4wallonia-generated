@@ -95,7 +95,7 @@
       }
     },
     {
-      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
+      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
       "name": "isReplacedBy",
       "label": {
         "en": "is replaced by"
@@ -105,7 +105,7 @@
       }
     },
     {
-      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
       "name": "isReplacedBy",
       "label": {
         "en": "is replaced by"
@@ -135,7 +135,7 @@
       }
     },
     {
-      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
+      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
       "name": "replaces",
       "label": {
         "en": "replaces"
@@ -145,7 +145,7 @@
       }
     },
     {
-      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
       "name": "replaces",
       "label": {
         "en": "replaces"
