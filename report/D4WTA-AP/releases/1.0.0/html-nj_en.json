@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
     "uri": "https://data.europa.eu/m8g",
-    "issued": "2024-08-29",
+    "issued": "2024-09-04",
     "baseURI": "https://data.europa.eu/m8g/",
     "filename": "d4wta-ap",
     "navigation": {
@@ -17,8 +17,8 @@
     },
     "status": "Draft",
     "statuslabel": "Onbekend",
-    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/870f7f159eaa4131bdf0fae9b70dff524f52915b",
-    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/870f7f159eaa4131bdf0fae9b70dff524f52915b/CHANGELOG",
+    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/ed384227fbc6da84e0ba48e9a7f4c0e2fbc20a5c",
+    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/ed384227fbc6da84e0ba48e9a7f4c0e2fbc20a5c/CHANGELOG",
     "feedbackurl": "https://github.com/EmidioStani/D4WTA-AP/issues",
     "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
     "usesVocs": [],
@@ -180,7 +180,9 @@
           "description": {
             "en": "This element contains a string giving information about this version such as RCS/CVS keywords."
           },
-          "usage": {},
+          "usage": {
+            "en": "The values should follow <a href=\"https://semver.org/\">Semantic Versioning (X.X.X)</a>."
+          },
           "domain": [
             {
               "EA-Name": "Concept",
@@ -207,7 +209,8 @@
           "rawTags": {
             "uri": "http://www.w3.org/2002/07/owl#versionInfo",
             "label-en": "version info",
-            "definition-en": "This element contains a string giving information about this version such as RCS/CVS keywords."
+            "definition-en": "This element contains a string giving information about this version such as RCS/CVS keywords.",
+            "usageNote-en": "The values should follow <a href=\"https://semver.org/\">Semantic Versioning (X.X.X)</a>."
           }
         },
         {
@@ -383,7 +386,9 @@
           "description": {
             "en": "The preferred lexical label for a resource, in a given language."
           },
-          "usage": {},
+          "usage": {
+            "en": "Labels should be in French or English.<br/>\r\nLabels should be at least in French.<br/>\r\nLabels should start with capital letters.<br/>\r\nLabels should not contain special characters such as & - ( ) \\ or /."
+          },
           "domain": [
             {
               "EA-Name": "Concept",
@@ -410,7 +415,8 @@
           "rawTags": {
             "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
             "label-en": "preferred label",
-            "definition-en": "The preferred lexical label for a resource, in a given language."
+            "definition-en": "The preferred lexical label for a resource, in a given language.",
+            "usageNote-en": "Labels should be in French or English.<br/>\r\nLabels should be at least in French.<br/>\r\nLabels should start with capital letters.<br/>\r\nLabels should not contain special characters such as & - ( ) \\ or /."
           }
         },
         {
@@ -727,7 +733,9 @@
           "description": {
             "en": "This element contains a string giving information about this version such as RCS/CVS keywords."
           },
-          "usage": {},
+          "usage": {
+            "en": "The values should follow <a href=\"https://semver.org/\">Semantic Versioning (X.X.X)</a>."
+          },
           "domain": [
             {
               "EA-Name": "ConceptScheme",
@@ -754,7 +762,8 @@
           "rawTags": {
             "definition-en": "This element contains a string giving information about this version such as RCS/CVS keywords.",
             "uri": "http://www.w3.org/2002/07/owl#versionInfo",
-            "label-en": "version info"
+            "label-en": "version info",
+            "usageNote-en": "The values should follow <a href=\"https://semver.org/\">Semantic Versioning (X.X.X)</a>."
           }
         },
         {
@@ -807,7 +816,9 @@
           "description": {
             "en": "The preferred lexical label for a resource, in a given language."
           },
-          "usage": {},
+          "usage": {
+            "en": "Labels should be in French or English.<br/>\r\nLabels should be at least in French.<br/>\r\nLabels should start with capital letters.<br/>\r\nLabels should not contain special characters such as & - ( ) \\ or /."
+          },
           "domain": [
             {
               "EA-Name": "ConceptScheme",
@@ -834,7 +845,8 @@
           "rawTags": {
             "label-en": "preferred label",
             "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
-            "definition-en": "The preferred lexical label for a resource, in a given language."
+            "definition-en": "The preferred lexical label for a resource, in a given language.",
+            "usageNote-en": "Labels should be in French or English.<br/>\r\nLabels should be at least in French.<br/>\r\nLabels should start with capital letters.<br/>\r\nLabels should not contain special characters such as & - ( ) \\ or /."
           }
         }
       ]

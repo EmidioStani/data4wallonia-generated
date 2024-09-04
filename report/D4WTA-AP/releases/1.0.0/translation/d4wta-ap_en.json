@@ -95,7 +95,7 @@
       }
     },
     {
-      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
       "name": "isReplacedBy",
       "label": {
         "en": "is replaced by"
@@ -105,7 +105,7 @@
       }
     },
     {
-      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
+      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
       "name": "isReplacedBy",
       "label": {
         "en": "is replaced by"
@@ -135,7 +135,7 @@
       }
     },
     {
-      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
+      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
       "name": "replaces",
       "label": {
         "en": "replaces"
@@ -145,7 +145,7 @@
       }
     },
     {
-      "EA-Guid": "{3FEC3F48-6A50-40e4-8C95-F5F932070454}",
+      "EA-Guid": "{C5803E8C-395D-46f1-88AE-76AF815EFF21}",
       "name": "replaces",
       "label": {
         "en": "replaces"
@@ -162,6 +162,9 @@
       },
       "definition": {
         "en": "This element contains a string giving information about this version such as RCS/CVS keywords."
+      },
+      "usage": {
+        "en": "The values should follow <a href=\"https://semver.org/\">Semantic Versioning (X.X.X)</a>."
       }
     },
     {
@@ -172,6 +175,9 @@
       },
       "definition": {
         "en": "This element contains a string giving information about this version such as RCS/CVS keywords."
+      },
+      "usage": {
+        "en": "The values should follow <a href=\"https://semver.org/\">Semantic Versioning (X.X.X)</a>."
       }
     },
     {
@@ -235,6 +241,9 @@
       },
       "definition": {
         "en": "The preferred lexical label for a resource, in a given language."
+      },
+      "usage": {
+        "en": "Labels should be in French or English.<br/>\r\nLabels should be at least in French.<br/>\r\nLabels should start with capital letters.<br/>\r\nLabels should not contain special characters such as & - ( ) \\ or /."
       }
     },
     {
@@ -245,6 +254,9 @@
       },
       "definition": {
         "en": "The preferred lexical label for a resource, in a given language."
+      },
+      "usage": {
+        "en": "Labels should be in French or English.<br/>\r\nLabels should be at least in French.<br/>\r\nLabels should start with capital letters.<br/>\r\nLabels should not contain special characters such as & - ( ) \\ or /."
       }
     },
     {
