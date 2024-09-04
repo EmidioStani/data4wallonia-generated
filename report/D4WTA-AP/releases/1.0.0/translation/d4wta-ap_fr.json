@@ -83,6 +83,10 @@
       "definition": {
         "en": "The status of the concept in the context of a particular workflow process.",
         "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table.",
+        "fr": "Enter your translation here"
       }
     },
     {

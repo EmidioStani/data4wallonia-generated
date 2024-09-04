@@ -484,6 +484,9 @@
       "ap-definition-en": {
         "en": "The status of the concept in the context of a particular workflow process."
       },
+      "usage": {
+        "en": "The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
+      },
       "ap-label-en": {
         "en": "status"
       },
@@ -516,7 +519,9 @@
         "definition": {
           "en": "The status of the concept in the context of a particular workflow process."
         },
-        "usage": "",
+        "usage": {
+          "en": "The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
+        },
         "ap-label-en": {
           "en": "status"
         },
@@ -540,6 +545,11 @@
             "key": "definition-en",
             "value": "NOTE",
             "note": "NOTE$ea_notes=The status of the concept in the context of a particular workflow process."
+          },
+          {
+            "key": "usageNote-en",
+            "value": "NOTE",
+            "note": "NOTE$ea_notes=The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
           }
         ],
         "DestRoleTags": [
@@ -557,6 +567,11 @@
             "key": "definition-en",
             "value": "NOTE",
             "note": "NOTE$ea_notes=The status of the concept in the context of a particular workflow process."
+          },
+          {
+            "key": "usageNote-en",
+            "value": "NOTE",
+            "note": "NOTE$ea_notes=The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
           }
         ],
         "Scope": "NOTHING"
@@ -2282,14 +2297,14 @@
   },
   "config": "config/config-ap.json",
   "branchtag": "ReSpecCV",
-  "dummy": "17",
+  "dummy": "18",
   "filename": "config/data4wallonia.json",
   "navigation": {
     "prev": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0"
   },
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
   "urlref": "/D4WTA-AP/releases/1.0.0/",
-  "documentcommit": "64d7432edbbb24c49f356a2aad389d2f851b02b6",
-  "toolchaincommit": "6b859c40d98bdbd59e6d02340a90785d5b48f4e3",
+  "documentcommit": "7f170d4a9638bee6e33a8cf8322f3e5530592685",
+  "toolchaincommit": "779d7663b001e238f7e17f876af274175a0be711",
   "hostname": "https://EmidioStani.github.io"
 }

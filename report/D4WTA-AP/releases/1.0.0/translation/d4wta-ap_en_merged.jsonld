@@ -87,12 +87,12 @@
   "contributors-column": "D4WTA-AP",
   "contributors-file": "stakeholders.csv",
   "diagram": "Taxonomy",
-  "documentcommit": "64d7432edbbb24c49f356a2aad389d2f851b02b6",
+  "documentcommit": "7f170d4a9638bee6e33a8cf8322f3e5530592685",
   "documentconfig": {
     "editorDocumentroot": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0",
     "statuslabel": "Draft"
   },
-  "dummy": "17",
+  "dummy": "18",
   "eap": "Data4Wallonia.eap",
   "editors": [
     {
@@ -141,6 +141,11 @@
             "key": "definition-en",
             "note": "NOTE$ea_notes=The status of the concept in the context of a particular workflow process.",
             "value": "NOTE"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "NOTE$ea_notes=The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table.",
+            "value": "NOTE"
           }
         ],
         "EA-Domain": "Concept",
@@ -171,6 +176,11 @@
             "key": "definition-en",
             "note": "NOTE$ea_notes=The status of the concept in the context of a particular workflow process.",
             "value": "NOTE"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "NOTE$ea_notes=The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table.",
+            "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
@@ -191,7 +201,9 @@
           "en": "status"
         },
         "sourceRole": "null",
-        "usage": ""
+        "usage": {
+          "en": "The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
@@ -208,7 +220,10 @@
           "EA-Package": "skos",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
+      }
     },
     {
       "@id": "http://purl.org/dc/terms/created",
@@ -2302,7 +2317,7 @@
   "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
   "template": "d4wta-ap_en.j2",
   "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
-  "toolchaincommit": "6b859c40d98bdbd59e6d02340a90785d5b48f4e3",
+  "toolchaincommit": "779d7663b001e238f7e17f876af274175a0be711",
   "toolchainversion": "3",
   "translation": [
     {
