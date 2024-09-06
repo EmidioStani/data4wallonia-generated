@@ -498,10 +498,9 @@
       },
       "extra": {
         "EA-Name": "status",
-        "EA-Guid": "{9B55DCF5-7984-4c3b-A31D-B4593D3B4922}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
+        "EA-Guid": "{E8FC0A1A-6C80-48cb-95D4-5100D46FF729}",
+        "EA-Package": "skos",
+        "EA-Type": "attribute",
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
         "EA-Range": "Concept",
@@ -511,8 +510,6 @@
           "EA-Package": "skos",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
-        "sourceRole": "null",
-        "destRole": "status",
         "label": {
           "en": "status"
         },
@@ -533,45 +530,23 @@
         "RawTags": [
           {
             "key": "uri",
-            "value": "NOTE",
-            "note": "http://publications.europa.eu/ontology/euvoc#status"
+            "value": "http://publications.europa.eu/ontology/euvoc#status",
+            "note": "null"
           },
           {
             "key": "label-en",
-            "value": "NOTE",
-            "note": "status"
+            "value": "status",
+            "note": "null"
           },
           {
             "key": "definition-en",
-            "value": "NOTE",
-            "note": "NOTE$ea_notes=The status of the concept in the context of a particular workflow process."
+            "value": "The status of the concept in the context of a particular workflow process.",
+            "note": "null"
           },
           {
             "key": "usageNote-en",
             "value": "NOTE",
-            "note": "NOTE$ea_notes=The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
-          }
-        ],
-        "DestRoleTags": [
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://publications.europa.eu/ontology/euvoc#status"
-          },
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "status"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "NOTE$ea_notes=The status of the concept in the context of a particular workflow process."
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "NOTE$ea_notes=The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
+            "note": "The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
           }
         ],
         "Scope": "NOTHING"
@@ -2337,14 +2312,14 @@
   },
   "config": "config/config-ap.json",
   "branchtag": "ReSpecCV",
-  "dummy": "21",
+  "dummy": "22",
   "filename": "config/data4wallonia.json",
   "navigation": {
     "prev": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0"
   },
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
   "urlref": "/D4WTA-AP/releases/1.0.0/",
-  "documentcommit": "2ece066a83b29215113491b0f959f431d233798e",
-  "toolchaincommit": "5a97347fe333c0c73f4ac9e323fa4c2ce30ff377",
+  "documentcommit": "83965ac4e68f1691f4ed6ed3b9154eefa3e73721",
+  "toolchaincommit": "d800a2109719aa322a3ebe664ec4629e467d91b2",
   "hostname": "https://EmidioStani.github.io"
 }

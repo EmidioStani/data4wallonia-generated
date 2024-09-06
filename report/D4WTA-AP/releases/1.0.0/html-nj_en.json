@@ -17,8 +17,8 @@
     },
     "status": "Draft",
     "statuslabel": "Onbekend",
-    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/2ece066a83b29215113491b0f959f431d233798e",
-    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/2ece066a83b29215113491b0f959f431d233798e/CHANGELOG",
+    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/83965ac4e68f1691f4ed6ed3b9154eefa3e73721",
+    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/83965ac4e68f1691f4ed6ed3b9154eefa3e73721/CHANGELOG",
     "feedbackurl": "https://github.com/EmidioStani/D4WTA-AP/issues",
     "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
     "usesVocs": [],
@@ -86,8 +86,8 @@
           "rawTags": {
             "uri": "http://publications.europa.eu/ontology/euvoc#status",
             "label-en": "status",
-            "definition-en": "NOTE$ea_notes=The status of the concept in the context of a particular workflow process.",
-            "usageNote-en": "NOTE$ea_notes=The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
+            "definition-en": "The status of the concept in the context of a particular workflow process.",
+            "usageNote-en": "The recommended controlled vocabulary is the Publications Office <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/concept-status\">Concept status</a> authority table."
           }
         },
         {
