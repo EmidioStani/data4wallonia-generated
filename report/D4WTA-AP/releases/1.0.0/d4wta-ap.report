@@ -2,42 +2,42 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-14:03:49 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-14:03:49 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Data4Wallonia.DataTypes".
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.Data4Wallonia.DataTypes
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Data4Wallonia.DataTypes:Code, Model.Data4Wallonia.skos:Concept
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/Location): Model.Data4Wallonia.dct:Location, Model.Data4Wallonia.dct:Location
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2001/XMLSchema#double): Model.Data4Wallonia.DataTypes:Double, Model.Data4Wallonia.DataTypes:String, Model.Data4Wallonia.DataTypes:Date
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.Data4Wallonia.cv:Participation:identifier, Model.Data4Wallonia.cv:EvidenceType:identifier, Model.Data4Wallonia.cv:Event:identifier, Model.Data4Wallonia.cv:Requirement:identifier, Model.Data4Wallonia.cv:Output:identifier, Model.Data4Wallonia.cv:Evidence:identifier, Model.Data4Wallonia.cpsv:Rule:identifier, Model.Data4Wallonia.foaf:Agent:identifier, Model.Data4Wallonia.cpsv:PublicService:identifier, Model.Data4Wallonia.skos:ConceptScheme:identifier, Model.Data4Wallonia.dcat:Dataset:identifier, Model.Data4Wallonia.cv:Channel:identifier, Model.Data4Wallonia.cv:Cost:identifier, Model.Data4Wallonia.cv:ServiceConcessionContract:identifier
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.Data4Wallonia.cv:ServiceConcessionContract:name, Model.Data4Wallonia.cv:Requirement:name, Model.Data4Wallonia.foaf:Agent:name, Model.Data4Wallonia.dcat:Dataset:title, Model.Data4Wallonia.cv:Evidence:name, Model.Data4Wallonia.cv:Output:name, Model.Data4Wallonia.cv:Event:name, Model.Data4Wallonia.cpsv:Rule:name, Model.Data4Wallonia.cpsv:PublicService:name
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.Data4Wallonia.cpsv:PublicService:functionsOfGovernment, Model.Data4Wallonia.cv:BusinessEvent:type, Model.Data4Wallonia.cv:Requirement:type, Model.Data4Wallonia.cv:Channel:type, Model.Data4Wallonia.cv:Output:type, Model.Data4Wallonia.cv:Evidence:type, Model.Data4Wallonia.cv:LifeEvent:type, Model.Data4Wallonia.cpsv:Rule:type
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2004/02/skos/core#prefLabel): Model.Data4Wallonia.skos:Concept:prefLabel, Model.Data4Wallonia.cv:PublicOrganisation:preferredLabel, Model.Data4Wallonia.skos:ConceptScheme:prefLabel
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.Data4Wallonia.cv:Output:description, Model.Data4Wallonia.cv:Cost:description, Model.Data4Wallonia.cv:ServiceConcessionContract:description, Model.Data4Wallonia.dcat:Dataset:description, Model.Data4Wallonia.cpsv:Rule:description, Model.Data4Wallonia.time:TemporalEntity:description, Model.Data4Wallonia.cv:Participation:description, Model.Data4Wallonia.cv:Evidence:description, Model.Data4Wallonia.cpsv:PublicService:description, Model.Data4Wallonia.cv:Event:description, Model.Data4Wallonia.cv:Channel:description
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.Data4Wallonia.cpsv:PublicService:spatial, Model.Data4Wallonia.cv:PublicOrganisation:spatial
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/processingTime): Model.Data4Wallonia.cv:Channel:processingTime, Model.Data4Wallonia.cpsv:PublicService:processingTime
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.Data4Wallonia.cv:Evidence:language, Model.Data4Wallonia.cpsv:Rule:language, Model.Data4Wallonia.cpsv:PublicService:language, Model.Data4Wallonia.cv:Output:language
-14:03:49 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2002/07/owl#versionInfo): Model.Data4Wallonia.skos:ConceptScheme:versionInfo, Model.Data4Wallonia.skos:Concept:versionInfo
-14:03:49 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Data4Wallonia".
-14:03:49 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Data4Wallonia".
-14:03:49 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Data4Wallonia".
-14:03:49 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Data4Wallonia".
-14:03:49 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Concept" .
-14:03:49 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ConceptScheme" .
-14:03:49 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Date" .
-14:03:49 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "String" .
-14:03:49 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Text" .
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" belongs to package "skos" based on source and target definition.
-14:03:49 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" does not have a name, it will be ignored.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:status" belongs to package "skos" based on source and target definition.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:ConceptScheme:isReplacedBy" belongs to package "skos" based on source and target definition.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:ConceptScheme:replaces" belongs to package "skos" based on source and target definition.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:isReplacedBy" belongs to package "skos" based on source and target definition.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:replaces" belongs to package "skos" based on source and target definition.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:topConceptOf" belongs to package "skos" based on source and target definition.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:ConceptScheme:hasTopConcept" belongs to package "skos" based on source and target definition.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> ConceptScheme)" belongs to package "skos" based on source and target definition.
-14:03:49 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> ConceptScheme)" does not have a name, it will be ignored.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:inScheme" belongs to package "skos" based on source and target definition.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" belongs to package "skos" based on source and target definition.
-14:03:49 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" does not have a name, it will be ignored.
-14:03:49 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:broader" belongs to package "skos" based on source and target definition.
+20:13:36 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+20:13:36 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Data4Wallonia.DataTypes".
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Data4Wallonia.DataTypes, Model
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Data4Wallonia.DataTypes:Code, Model.Data4Wallonia.skos:Concept
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/Location): Model.Data4Wallonia.dct:Location, Model.Data4Wallonia.dct:Location
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2001/XMLSchema#double): Model.Data4Wallonia.DataTypes:String, Model.Data4Wallonia.DataTypes:Date, Model.Data4Wallonia.DataTypes:Double
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2002/07/owl#versionInfo): Model.Data4Wallonia.skos:Concept:versionInfo, Model.Data4Wallonia.skos:ConceptScheme:versionInfo
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.Data4Wallonia.cv:BusinessEvent:type, Model.Data4Wallonia.cv:Channel:type, Model.Data4Wallonia.cv:LifeEvent:type, Model.Data4Wallonia.cpsv:Rule:type, Model.Data4Wallonia.cv:Requirement:type, Model.Data4Wallonia.cv:Output:type, Model.Data4Wallonia.cpsv:PublicService:functionsOfGovernment, Model.Data4Wallonia.cv:Evidence:type
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.Data4Wallonia.cv:Requirement:identifier, Model.Data4Wallonia.cv:Participation:identifier, Model.Data4Wallonia.cv:EvidenceType:identifier, Model.Data4Wallonia.cv:ServiceConcessionContract:identifier, Model.Data4Wallonia.cv:Output:identifier, Model.Data4Wallonia.skos:ConceptScheme:identifier, Model.Data4Wallonia.cv:Event:identifier, Model.Data4Wallonia.cv:Channel:identifier, Model.Data4Wallonia.cv:Evidence:identifier, Model.Data4Wallonia.cpsv:PublicService:identifier, Model.Data4Wallonia.cv:Cost:identifier, Model.Data4Wallonia.dcat:Dataset:identifier, Model.Data4Wallonia.foaf:Agent:identifier, Model.Data4Wallonia.cpsv:Rule:identifier
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.Data4Wallonia.cpsv:PublicService:description, Model.Data4Wallonia.dcat:Dataset:description, Model.Data4Wallonia.cv:Output:description, Model.Data4Wallonia.cv:Event:description, Model.Data4Wallonia.time:TemporalEntity:description, Model.Data4Wallonia.cv:Cost:description, Model.Data4Wallonia.cv:Evidence:description, Model.Data4Wallonia.cv:ServiceConcessionContract:description, Model.Data4Wallonia.cv:Channel:description, Model.Data4Wallonia.cv:Participation:description, Model.Data4Wallonia.cpsv:Rule:description
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.Data4Wallonia.cpsv:PublicService:spatial, Model.Data4Wallonia.cv:PublicOrganisation:spatial
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2004/02/skos/core#prefLabel): Model.Data4Wallonia.skos:ConceptScheme:prefLabel, Model.Data4Wallonia.cv:PublicOrganisation:preferredLabel, Model.Data4Wallonia.skos:Concept:prefLabel
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.Data4Wallonia.cv:Output:name, Model.Data4Wallonia.cv:Event:name, Model.Data4Wallonia.cpsv:Rule:name, Model.Data4Wallonia.cv:Requirement:name, Model.Data4Wallonia.cv:ServiceConcessionContract:name, Model.Data4Wallonia.cv:Evidence:name, Model.Data4Wallonia.cpsv:PublicService:name, Model.Data4Wallonia.dcat:Dataset:title, Model.Data4Wallonia.foaf:Agent:name
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.Data4Wallonia.cpsv:PublicService:language, Model.Data4Wallonia.cpsv:Rule:language, Model.Data4Wallonia.cv:Output:language, Model.Data4Wallonia.cv:Evidence:language
+20:13:36 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/processingTime): Model.Data4Wallonia.cv:Channel:processingTime, Model.Data4Wallonia.cpsv:PublicService:processingTime
+20:13:36 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Data4Wallonia".
+20:13:36 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Data4Wallonia".
+20:13:36 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Data4Wallonia".
+20:13:36 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Data4Wallonia".
+20:13:36 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Concept" .
+20:13:36 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ConceptScheme" .
+20:13:36 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Date" .
+20:13:36 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "String" .
+20:13:36 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Text" .
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:ConceptScheme:isReplacedBy" belongs to package "skos" based on source and target definition.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:ConceptScheme:replaces" belongs to package "skos" based on source and target definition.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" belongs to package "skos" based on source and target definition.
+20:13:36 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" does not have a name, it will be ignored.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:broader" belongs to package "skos" based on source and target definition.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:isReplacedBy" belongs to package "skos" based on source and target definition.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:replaces" belongs to package "skos" based on source and target definition.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> ConceptScheme)" belongs to package "skos" based on source and target definition.
+20:13:36 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> ConceptScheme)" does not have a name, it will be ignored.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:inScheme" belongs to package "skos" based on source and target definition.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:topConceptOf" belongs to package "skos" based on source and target definition.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:ConceptScheme:hasTopConcept" belongs to package "skos" based on source and target definition.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" belongs to package "skos" based on source and target definition.
+20:13:36 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Data4Wallonia.skos:Concept:(Concept -> Concept)" does not have a name, it will be ignored.
+20:13:36 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Data4Wallonia.skos:Concept:status" belongs to package "skos" based on source and target definition.
