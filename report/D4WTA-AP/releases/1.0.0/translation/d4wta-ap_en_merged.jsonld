@@ -87,12 +87,12 @@
   "contributors-column": "D4WTA-AP",
   "contributors-file": "stakeholders.csv",
   "diagram": "Taxonomy",
-  "documentcommit": "85fa20d829f2ca41f625c42f0d5dec4cb5f051d3",
+  "documentcommit": "959f5e8f7dfdbee55e740b6c4c650afd34b59308",
   "documentconfig": {
     "editorDocumentroot": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0",
     "statuslabel": "Draft"
   },
-  "dummy": "27",
+  "dummy": "29",
   "eap": "Data4Wallonia.eap",
   "editors": [
     {
@@ -2357,7 +2357,7 @@
   "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
   "template": "d4wta-ap_en.j2",
   "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
-  "toolchaincommit": "5bef520edf7b232b485016064e3f735c83ef0682",
+  "toolchaincommit": "ccffc07d776a199ea0b1449e885fbfd9276e2eba",
   "toolchainversion": "3",
   "translation": [
     {
