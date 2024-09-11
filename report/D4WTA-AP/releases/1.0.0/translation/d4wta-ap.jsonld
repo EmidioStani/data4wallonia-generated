@@ -2337,14 +2337,14 @@
   },
   "config": "config/config-ap.json",
   "branchtag": "ReSpecCV",
-  "dummy": "25",
+  "dummy": "26",
   "filename": "config/data4wallonia.json",
   "navigation": {
     "prev": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0"
   },
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
   "urlref": "/D4WTA-AP/releases/1.0.0/",
-  "documentcommit": "950c16cc4000fd61aade713575dc8c98eb551bdd",
-  "toolchaincommit": "acfb99ccff92f9d333714de85db955b0db3f5d3b",
+  "documentcommit": "69c5cc139efc75828c91e2523d9056265908e1dc",
+  "toolchaincommit": "c982d61a11e8b7ede15b89337d626c3f1478552f",
   "hostname": "https://EmidioStani.github.io"
 }
