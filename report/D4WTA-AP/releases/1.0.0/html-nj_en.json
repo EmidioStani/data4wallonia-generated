@@ -17,8 +17,8 @@
     },
     "status": "Draft",
     "statuslabel": "Onbekend",
-    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/682c2efb9a5db6cba6a4bc1c68943e575751a356",
-    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/682c2efb9a5db6cba6a4bc1c68943e575751a356/CHANGELOG",
+    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/9ef35c59491dff045fa9eb0765e81ff87ac4b5c5",
+    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/9ef35c59491dff045fa9eb0765e81ff87ac4b5c5/CHANGELOG",
     "feedbackurl": "https://github.com/EmidioStani/D4WTA-AP/issues",
     "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
     "usesVocs": [],
@@ -334,6 +334,46 @@
             "uri": "http://www.w3.org/2004/02/skos/core#definition",
             "label-en": "definition",
             "definition-en": "A statement or formal explanation of the meaning of a concept."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+          "name": "hiddenLabel",
+          "sort": "hidden label",
+          "label": {
+            "en": "hidden label"
+          },
+          "description": {
+            "en": "A label archived"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Text",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Text",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Text"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+            "label-en": "hidden label",
+            "definition-en": "A label archived"
           }
         },
         {

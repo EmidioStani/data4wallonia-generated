@@ -326,6 +326,7 @@ The main entities are those that form the core of the Application Profile.
                             For this entity the following properties are defined: <a href="#Concept.alternativelabel">alternative label</a>
                             , <a href="#Concept.definition">definition</a>
                             , <a href="#Concept.hasbroader">has broader</a>
+                            , <a href="#Concept.hiddenlabel">hidden label</a>
                             , <a href="#Concept.isinscheme">is in scheme</a>
                             , <a href="#Concept.isreplacedby">is replaced by</a>
                             , <a href="#Concept.istopconceptinscheme">is top concept in scheme</a>
@@ -487,6 +488,49 @@ The main entities are those that form the core of the Application Profile.
                                 </td>
                                 <td property="rdfs:comment">
                                     Relates a concept to a concept that is more general in meaning.
+                                </td>
+                                <td property="skos:scopeNote">
+                                    
+                                </td>
+				<!--
+                                <td>
+                                    
+                                </td>
+				-->
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr id="Concept.hiddenlabel"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/2004/02/skos/core#hiddenLabel"
+                                class="class mandatory">
+                                <td>
+				    <a href="https://github.com/EmidioStani/D4WTA-AP/issues/new?title=Issue%20for%20hidden label%20in%20Concept&body=Explain%20your%20issue%20for%20https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/%23Concept.hiddenlabel" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+                                        <img src="html/callout.png" loading="lazy" alt="[o]" width="100" height="100"/>
+                                    </a>
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/2004/02/skos/core#hiddenLabel"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/2004/02/skos/core#hiddenLabel"
+                                           data-placement="right">
+                                        hidden label</a>
+                                </td>
+                                <td>
+                                    
+                                        
+                                            <a href="#Text" data-placement="right">Text</a>
+                                        
+                                    
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td property="rdfs:comment">
+                                    A label archived
                                 </td>
                                 <td property="skos:scopeNote">
                                     
@@ -1553,6 +1597,10 @@ The properties are indicated as <it>mandatory, recommended, optional</it> and <i
 					
 						
 					
+						
+					
+					
+						
 					
 						
 					
@@ -1602,6 +1650,16 @@ The properties are indicated as <it>mandatory, recommended, optional</it> and <i
 								<td></td>
 								<td><a href="#Concept.hasbroader">has broader </a></td>
 								<td><div class="shorten">http://www.w3.org/2004/02/skos/core#broader</div></td>
+							</tr>
+						
+					
+						
+							<tr>
+								<td><a href="#Concept">Concept</a></td>
+								<td><div class="shorten">http://www.w3.org/2004/02/skos/core#Concept</div></td>
+								<td></td>
+								<td><a href="#Concept.hiddenlabel">hidden label </a></td>
+								<td><div class="shorten">http://www.w3.org/2004/02/skos/core#hiddenLabel</div></td>
 							</tr>
 						
 					

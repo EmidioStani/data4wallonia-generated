@@ -321,6 +321,18 @@
           "sh:path": "http://publications.europa.eu/ontology/euvoc#status"
         },
         {
+          "@id": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/573fed37f404087bec0cbb3cf0f4b0a6130bf65d",
+          "rdfs:seeAlso": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel",
+          "sh:description": {
+            "en": "A label archived"
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "hidden label"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#hiddenLabel"
+        },
+        {
           "@id": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/5c5edf699f76380042d7b59ca4ed6efa00d48d0e",
           "rdfs:seeAlso": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.isinscheme",
           "sh:description": {
@@ -379,6 +391,18 @@
             "en": "replaces"
           },
           "sh:path": "http://purl.org/dc/terms/replaces"
+        },
+        {
+          "@id": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/83e2d8432912ae8978b2c63443bcd88a9a876a82",
+          "rdfs:seeAlso": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel",
+          "sh:description": {
+            "en": "A label archived"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "hidden label"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#hiddenLabel"
         },
         {
           "@id": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/860f4efa1f0580955d2891ff76eee1d7956b44b9",
@@ -441,6 +465,30 @@
           "sh:path": "http://www.w3.org/2004/02/skos/core#broader"
         },
         {
+          "@id": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/a17d3fa1155e0ed8fe90687ae53dda470279ce8b",
+          "rdfs:seeAlso": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel",
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "A label archived"
+          },
+          "sh:name": {
+            "en": "hidden label"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#hiddenLabel"
+        },
+        {
+          "@id": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/aac5d5d9b05961612e648d16b5c7887c6215109d",
+          "rdfs:seeAlso": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel",
+          "sh:description": {
+            "en": "A label archived"
+          },
+          "sh:name": {
+            "en": "hidden label"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+          "sh:uniqueLang": "true"
+        },
+        {
           "@id": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/ab629bb6aed53f147c0664483836a8783880b7d5",
           "rdfs:seeAlso": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.isreplacedby",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -475,6 +523,18 @@
             "en": "is in scheme"
           },
           "sh:path": "http://www.w3.org/2004/02/skos/core#inScheme"
+        },
+        {
+          "@id": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/ca3db64955df7a6dd4489c50f4aad70db2b97b65",
+          "rdfs:seeAlso": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel",
+          "sh:description": {
+            "en": "A label archived"
+          },
+          "sh:name": {
+            "en": "hidden label"
+          },
+          "sh:nodeKind": "sh:Literal",
+          "sh:path": "http://www.w3.org/2004/02/skos/core#hiddenLabel"
         },
         {
           "@id": "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/cc690f56d4e515fa4e04625718e23c5dbeb6883d",

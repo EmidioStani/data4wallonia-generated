@@ -251,19 +251,24 @@
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/3e0a046965e7d33273185fa6f7a61e8fa6e7b9d0>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/517df872c0d40c23da2371a4b362e0948d18746d>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/559dab14a90a8ddc0150dd1d09a443ecb37b90dd>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/573fed37f404087bec0cbb3cf0f4b0a6130bf65d>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/5c5edf699f76380042d7b59ca4ed6efa00d48d0e>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/6cd0f0f5e19a1c8dce362ecbe8a196575b9cd85f>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/75cc72bd3bfa5bdbf60d2024711270a9478a5fc0>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/7aa458aca83d248036387c90bfca39af9925977d>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/82568aed016ce4cb01dbf2e4b6cca1639034047f>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/83e2d8432912ae8978b2c63443bcd88a9a876a82>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/860f4efa1f0580955d2891ff76eee1d7956b44b9>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/88b702e12401b15cdfbfb284e359477f384bce54>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/9512099dadc4456834bcbf88af15fccc7554129c>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/9cb6232f5b441940af2ef6cf86c3736ae9c32fd9>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/a0745c853f0fa115aae85574c6262ca1102ab248>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/a17d3fa1155e0ed8fe90687ae53dda470279ce8b>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/aac5d5d9b05961612e648d16b5c7887c6215109d>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/ab629bb6aed53f147c0664483836a8783880b7d5>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/b29602ee73fd17320945933fad94551e97634999>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/c6fd64c9a41aa39534bde93eeaca8d8f121f28b4>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/ca3db64955df7a6dd4489c50f4aad70db2b97b65>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/cc690f56d4e515fa4e04625718e23c5dbeb6883d>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/d94c14fe5ee5bbb147447229b6bae0a2668fffd6>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/d95cbc3c12075d87aa0a5059de6ac8e4ff89a687>,
@@ -370,6 +375,12 @@
   shacl:name "status"@en;
   shacl:path <http://publications.europa.eu/ontology/euvoc#status> .
 
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/573fed37f404087bec0cbb3cf0f4b0a6130bf65d> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel";
+  shacl:description "A label archived"@en;
+  shacl:minCount 1;
+  shacl:name "hidden label"@en;
+  shacl:path skos:hiddenLabel .
+
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/5c5edf699f76380042d7b59ca4ed6efa00d48d0e> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.isinscheme";
   shacl:description "Relates a resource (for example a concept) to a concept scheme in which it is included."@en;
   shacl:maxCount 1;
@@ -399,6 +410,12 @@
   shacl:description "A related resource that is supplanted, displaced, or superseded by the described resource."@en;
   shacl:name "replaces"@en;
   shacl:path dc:replaces .
+
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/83e2d8432912ae8978b2c63443bcd88a9a876a82> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel";
+  shacl:description "A label archived"@en;
+  shacl:maxCount 1;
+  shacl:name "hidden label"@en;
+  shacl:path skos:hiddenLabel .
 
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/860f4efa1f0580955d2891ff76eee1d7956b44b9> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.replaces";
   shacl:description "A related resource that is supplanted, displaced, or superseded by the described resource."@en;
@@ -430,6 +447,18 @@
   shacl:name "has broader"@en;
   shacl:path skos:broader .
 
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/a17d3fa1155e0ed8fe90687ae53dda470279ce8b> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel";
+  shacl:datatype rdf:langString;
+  shacl:description "A label archived"@en;
+  shacl:name "hidden label"@en;
+  shacl:path skos:hiddenLabel .
+
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/aac5d5d9b05961612e648d16b5c7887c6215109d> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel";
+  shacl:description "A label archived"@en;
+  shacl:name "hidden label"@en;
+  shacl:path skos:hiddenLabel;
+  shacl:uniqueLang true .
+
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/ab629bb6aed53f147c0664483836a8783880b7d5> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.isreplacedby";
   shacl:class skos:Concept;
   shacl:description "A related resource that supplants, displaces, or supersedes the described resource."@en;
@@ -447,6 +476,12 @@
   shacl:minCount 1;
   shacl:name "is in scheme"@en;
   shacl:path skos:inScheme .
+
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/ca3db64955df7a6dd4489c50f4aad70db2b97b65> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.hiddenlabel";
+  shacl:description "A label archived"@en;
+  shacl:name "hidden label"@en;
+  shacl:nodeKind shacl:Literal;
+  shacl:path skos:hiddenLabel .
 
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape/cc690f56d4e515fa4e04625718e23c5dbeb6883d> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#Concept.isreplacedby";
   shacl:description "A related resource that supplants, displaces, or supersedes the described resource."@en;
