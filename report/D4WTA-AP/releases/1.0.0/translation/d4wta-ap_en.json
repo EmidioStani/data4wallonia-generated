@@ -224,16 +224,6 @@
       }
     },
     {
-      "EA-Guid": "{5F87A0D8-120B-40ff-AB5D-DF15F3F4C917}",
-      "name": "hiddenLabel",
-      "label": {
-        "en": "hidden label"
-      },
-      "definition": {
-        "en": "A label archived"
-      }
-    },
-    {
       "EA-Guid": "{02DA6AB5-4367-4372-A7FE-FB793FC53F95}",
       "name": "isInScheme",
       "label": {

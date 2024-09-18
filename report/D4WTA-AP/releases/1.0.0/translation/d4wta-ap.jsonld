@@ -1910,90 +1910,6 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "hiddenLabel",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "A label archived"
-      },
-      "ap-label-en": {
-        "en": "hidden label"
-      },
-      "definition": {
-        "en": "A label archived"
-      },
-      "label": {
-        "en": "hidden label"
-      },
-      "extra": {
-        "EA-Name": "hiddenLabel",
-        "EA-Guid": "{5F87A0D8-120B-40ff-AB5D-DF15F3F4C917}",
-        "EA-Package": "skos",
-        "EA-Type": "attribute",
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{62E6BA0C-C86D-46a0-8661-145FC890D836}",
-        "EA-Range": "Text",
-        "RangeData": {
-          "EA-Name": "Text",
-          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-        },
-        "label": {
-          "en": "hidden label"
-        },
-        "definition": {
-          "en": "A label archived"
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "hidden label"
-        },
-        "ap-definition-en": {
-          "en": "A label archived"
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
-            "note": "null"
-          },
-          {
-            "key": "label-en",
-            "value": "hidden label",
-            "note": "null"
-          },
-          {
-            "key": "definition-en",
-            "value": "A label archived",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-          "EA-Name": "Concept"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Text",
-          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    },
-    {
       "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "isInScheme",
@@ -2421,14 +2337,14 @@
   },
   "config": "config/config-ap.json",
   "branchtag": "ReSpecCV",
-  "dummy": "35",
+  "dummy": "36",
   "filename": "config/data4wallonia.json",
   "navigation": {
     "prev": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0"
   },
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
   "urlref": "/D4WTA-AP/releases/1.0.0/",
-  "documentcommit": "9ef35c59491dff045fa9eb0765e81ff87ac4b5c5",
-  "toolchaincommit": "cb230e988d4be977a105d0ab309e6c00a4136d3f",
+  "documentcommit": "c7d1aa71c9ee52bfcfb86b48944ff8e730f7a812",
+  "toolchaincommit": "ccf37c17538100dc0487c6e6b6f6d71272bebac1",
   "hostname": "https://EmidioStani.github.io"
 }

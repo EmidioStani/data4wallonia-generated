@@ -64,11 +64,6 @@
           <xs:documentation xml:lang="en">A statement or formal explanation of the meaning of a concept.</xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="hiddenLabel" type="xs:string" maxOccurs="1" minOccurs="1">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">A label archived</xs:documentation>
-        </xs:annotation>
-      </xs:element>
       <xs:element name="isInScheme" ref="ConceptSchemeType" maxOccurs="1" minOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Relates a resource (for example a concept) to a concept scheme in which it is included.</xs:documentation>

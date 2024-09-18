@@ -449,26 +449,6 @@
 "minCardinality": "0",
 "maxCardinality": "*"}
 , {
-"@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
-"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": "hiddenLabel",
-"inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "A label archived"}, "ap-label-en" : {"en": "hidden label"}, "definition" : {"en": "A label archived"}, "label" : {"en": "hidden label"},
-"extra": {"EA-Name" : "hiddenLabel", "EA-Guid" : "{5F87A0D8-120B-40ff-AB5D-DF15F3F4C917}", "EA-Package" : "skos", "EA-Type" : "attribute", "EA-Domain" : "Concept", "EA-Domain-Guid" : "{62E6BA0C-C86D-46a0-8661-145FC890D836}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "Text", "EA-GUID" : "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}", "EA-Package" : "DataTypes", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }, "label" : "hidden label", "definition" : "A label archived", "usage" : "", "ap-label-en" : "hidden label", "ap-definition-en" : "A label archived", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "uri", "value": "http:\/\/www.w3.org\/2004\/02\/skos\/core#hiddenLabel", "note": "null" }, { "key": "label-en", "value": "hidden label", "note": "null" }, { "key": "definition-en", "value": "A label archived", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A label archived"}, "ap-label-en" : {"en": "hidden label"}, "definition" : {"en": "A label archived"}, "label" : {"en": "hidden label"}},
-"codelist": [
-],
-"domain": [
-{ "uri": "http://www.w3.org/2004/02/skos/core#Concept", "EA-Name" : "Concept" }
-],
-"range": [
-{"EA-Name" : "Text", "EA-GUID" : "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}", "EA-Package" : "DataTypes", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }
-],
-"generalization": [
-
-],
-"minCardinality": "1",
-"maxCardinality": "1"}
-, {
 "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "isInScheme",

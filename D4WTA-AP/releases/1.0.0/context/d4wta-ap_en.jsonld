@@ -27,10 +27,6 @@
       "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
       "@type": "@id"
     },
-    "hiddenLabel": {
-      "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-    },
     "identifier": {
       "@id": "http://purl.org/dc/terms/identifier",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
