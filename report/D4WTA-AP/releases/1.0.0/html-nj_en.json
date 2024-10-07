@@ -17,8 +17,8 @@
     },
     "status": "Draft",
     "statuslabel": "Onbekend",
-    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/c7d1aa71c9ee52bfcfb86b48944ff8e730f7a812",
-    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/c7d1aa71c9ee52bfcfb86b48944ff8e730f7a812/CHANGELOG",
+    "repositoryurl": "git@github.com:EmidioStani/data4wallonia-thema.git/tree/5f7a24767ed245dd04f27c950985dcd8e3d387cf",
+    "changelogurl": "git@github.com:EmidioStani/data4wallonia-thema.git/blob/5f7a24767ed245dd04f27c950985dcd8e3d387cf/CHANGELOG",
     "feedbackurl": "https://github.com/EmidioStani/D4WTA-AP/issues",
     "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
     "usesVocs": [],
@@ -721,6 +721,46 @@
             "definition-en": "NOTE$ea_notes=A related resource that is supplanted, displaced, or superseded by the described resource.",
             "label-en": "replaces",
             "uri": "http://purl.org/dc/terms/replaces"
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/title",
+          "name": "title",
+          "sort": "title",
+          "label": {
+            "en": "title"
+          },
+          "description": {
+            "en": "A name given to the resource."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptScheme",
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Text",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Text",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Text"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "title",
+            "uri": "http://purl.org/dc/terms/title",
+            "definition-en": "A name given to the resource."
           }
         },
         {

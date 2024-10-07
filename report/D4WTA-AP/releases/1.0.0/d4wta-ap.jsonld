@@ -329,6 +329,26 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
+"@id": "http://purl.org/dc/terms/title",
+"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+"name": "title",
+"inpackage": "OTHER_PACKAGE",
+"ap-definition-en" : {"en": "A name given to the resource."}, "ap-label-en" : {"en": "title"}, "definition" : {"en": "A name given to the resource."}, "label" : {"en": "title"},
+"extra": {"EA-Name" : "title", "EA-Guid" : "{EEC921B9-FD58-4abd-836C-F1DA9218D27A}", "EA-Package" : "skos", "EA-Type" : "attribute", "EA-Domain" : "ConceptScheme", "EA-Domain-Guid" : "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}", "EA-Range" : "Text", "RangeData" : {"EA-Name" : "Text", "EA-GUID" : "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}", "EA-Package" : "DataTypes", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }, "label" : "title", "definition" : "A name given to the resource.", "usage" : "", "ap-label-en" : "title", "ap-definition-en" : "A name given to the resource.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "title", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/title", "note": "null" }, { "key": "definition-en", "value": "A name given to the resource.", "note": "null" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "A name given to the resource."}, "ap-label-en" : {"en": "title"}, "definition" : {"en": "A name given to the resource."}, "label" : {"en": "title"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme", "EA-Name" : "ConceptScheme" }
+],
+"range": [
+{"EA-Name" : "Text", "EA-GUID" : "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}", "EA-Package" : "DataTypes", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
+"maxCardinality": "1"}
+, {
 "@id": "http://www.w3.org/2002/07/owl#versionInfo",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "versionInfo",

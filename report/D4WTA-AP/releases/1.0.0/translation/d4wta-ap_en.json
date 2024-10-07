@@ -155,6 +155,16 @@
       }
     },
     {
+      "EA-Guid": "{EEC921B9-FD58-4abd-836C-F1DA9218D27A}",
+      "name": "title",
+      "label": {
+        "en": "title"
+      },
+      "definition": {
+        "en": "A name given to the resource."
+      }
+    },
+    {
       "EA-Guid": "{2F0642B8-6DD5-4685-86FB-2B506E7C84D3}",
       "name": "versionInfo",
       "label": {

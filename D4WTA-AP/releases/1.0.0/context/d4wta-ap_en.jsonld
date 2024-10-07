@@ -59,6 +59,10 @@
       "@id": "http://publications.europa.eu/ontology/euvoc#status",
       "@type": "@id"
     },
+    "title": {
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
     "topConceptOf": {
       "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
       "@type": "@id"

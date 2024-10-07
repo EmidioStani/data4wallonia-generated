@@ -1340,6 +1340,90 @@
       "maxCardinality": "1"
     },
     {
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "title",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "A name given to the resource."
+      },
+      "ap-label-en": {
+        "en": "title"
+      },
+      "definition": {
+        "en": "A name given to the resource."
+      },
+      "label": {
+        "en": "title"
+      },
+      "extra": {
+        "EA-Name": "title",
+        "EA-Guid": "{EEC921B9-FD58-4abd-836C-F1DA9218D27A}",
+        "EA-Package": "skos",
+        "EA-Type": "attribute",
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Range": "Text",
+        "RangeData": {
+          "EA-Name": "Text",
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        },
+        "label": {
+          "en": "title"
+        },
+        "definition": {
+          "en": "A name given to the resource."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "title"
+        },
+        "ap-definition-en": {
+          "en": "A name given to the resource."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "title",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://purl.org/dc/terms/title",
+            "note": "null"
+          },
+          {
+            "key": "definition-en",
+            "value": "A name given to the resource.",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+          "EA-Name": "ConceptScheme"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Text",
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
       "@id": "http://www.w3.org/2002/07/owl#versionInfo",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "name": "versionInfo",
@@ -2337,14 +2421,14 @@
   },
   "config": "config/config-ap.json",
   "branchtag": "ReSpecCV",
-  "dummy": "36",
+  "dummy": "37",
   "filename": "config/data4wallonia.json",
   "navigation": {
     "prev": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0"
   },
   "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
   "urlref": "/D4WTA-AP/releases/1.0.0/",
-  "documentcommit": "c7d1aa71c9ee52bfcfb86b48944ff8e730f7a812",
-  "toolchaincommit": "ccf37c17538100dc0487c6e6b6f6d71272bebac1",
+  "documentcommit": "5f7a24767ed245dd04f27c950985dcd8e3d387cf",
+  "toolchaincommit": "275942617bc4cab09a4ad145272f5daa090cc579",
   "hostname": "https://EmidioStani.github.io"
 }

@@ -32,6 +32,8 @@ add nodeKind constraint
 add uniqueLanguage constraint
 add nodeKind constraint
 add nodeKind constraint
+add uniqueLanguage constraint
+add nodeKind constraint
 add nodeKind constraint
 start writing
 Write complete, file saved to: /tmp/workspace/target/D4WTA-AP/releases/1.0.0//shacl/d4wta-ap-SHACL_en.jsonld

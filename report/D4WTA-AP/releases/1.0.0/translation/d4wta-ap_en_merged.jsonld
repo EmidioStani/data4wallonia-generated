@@ -87,12 +87,12 @@
   "contributors-column": "D4WTA-AP",
   "contributors-file": "stakeholders.csv",
   "diagram": "Taxonomy",
-  "documentcommit": "c7d1aa71c9ee52bfcfb86b48944ff8e730f7a812",
+  "documentcommit": "5f7a24767ed245dd04f27c950985dcd8e3d387cf",
   "documentconfig": {
     "editorDocumentroot": "https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0",
     "statuslabel": "Draft"
   },
-  "dummy": "36",
+  "dummy": "37",
   "eap": "Data4Wallonia.eap",
   "editors": [
     {
@@ -974,6 +974,91 @@
           "EA-Name": "ConceptScheme",
           "EA-Package": "skos",
           "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{EEC921B9-FD58-4abd-836C-F1DA9218D27A}",
+      "ap-definition-en": {
+        "en": "A name given to the resource."
+      },
+      "ap-label-en": {
+        "en": "title"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "A name given to the resource."
+      },
+      "domain": [
+        {
+          "EA-Name": "ConceptScheme",
+          "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "ConceptScheme",
+        "EA-Domain-Guid": "{B63DC737-AD17-4c91-8D2F-E3D11126C9B7}",
+        "EA-Guid": "{EEC921B9-FD58-4abd-836C-F1DA9218D27A}",
+        "EA-Name": "title",
+        "EA-Package": "skos",
+        "EA-Range": "Text",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Name": "Text",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "title"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/title"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A name given to the resource."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A name given to the resource."
+        },
+        "ap-label-en": {
+          "en": "title"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A name given to the resource."
+        },
+        "label": {
+          "en": "title"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "title"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "title",
+      "range": [
+        {
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Name": "Text",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
         }
       ]
     },
@@ -2357,7 +2442,7 @@
   "standaardregisterurl": "https://github.com/EmidioStani/D4WTA-A/blob/master/releases/1.0.0/Changelog.md",
   "template": "d4wta-ap_en.j2",
   "title": "Data4Wallonia Taxonomy Application Profile (D4WTA-AP)",
-  "toolchaincommit": "ccf37c17538100dc0487c6e6b6f6d71272bebac1",
+  "toolchaincommit": "275942617bc4cab09a4ad145272f5daa090cc579",
   "toolchainversion": "3",
   "translation": [
     {

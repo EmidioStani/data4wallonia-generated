@@ -23,6 +23,7 @@
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/322ac30abbb777e02239ab84ebf7d14ebde22688>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/3b9cc6558bbf88b7fbaf0c2f3ab6ae7fb8c1b4b9>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/3bbdbd65941f58187b251bba520894472f60f953>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/488f0bcb1b2d7cb5288ca9952a7b94f106f95859>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/517df872c0d40c23da2371a4b362e0948d18746d>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/5719d6b651172a215daa43adb8922b37ba02102d>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/6c7c1bd2ab3b7761e5be759a078a9fd93f411a57>,
@@ -30,6 +31,7 @@
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/6fedca0d35fd32f6fdac8bb55c552b7d49e04963>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/82568aed016ce4cb01dbf2e4b6cca1639034047f>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/860f4efa1f0580955d2891ff76eee1d7956b44b9>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/92d65d33f2a5d5345f1980ffd0cf304e47dd0caf>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/9380ee54faf9ee92c4f4ea00d9c9132fc5ce831f>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/9512099dadc4456834bcbf88af15fccc7554129c>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/958ee22381b731f42ee31551e061d78c282047ae>,
@@ -38,13 +40,16 @@
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/ba94cef889ef8df6c461af7786957a20b3271b97>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/c0d17764e84e711728581fda7356a51e99a9040a>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/c1730b90b5f67fd4e0b6a93a4d751c57392c80e1>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/c4fdb9967443dd30f3b42d440beb3d113f53bd01>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/cc690f56d4e515fa4e04625718e23c5dbeb6883d>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/d5d74574f70f9a979535f3624608f88180dd0c97>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/d95cbc3c12075d87aa0a5059de6ac8e4ff89a687>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/e2017f72421063cd9ff494011ec78f35f9632a4a>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/e4ba85d4634072a147fb21c2a1f2ff37cdc7872a>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/e4d44fb0d3c41df2a4042ee73fec8d83fc141a60>,
     <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/ec458b5b609f8e8eda0ab24a6d0e586b1b88f7a1>,
-    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/f4d3e24a8374fe765ac04ca800506ff76a678ea8>;
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/f4d3e24a8374fe765ac04ca800506ff76a678ea8>,
+    <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/f8b02efd063b8089b72ce9677a1e4a3488eeb9a9>;
   shacl:targetClass skos:ConceptScheme .
 
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/16a39520e446e5b794a01467eaeb5fe3e10ab704> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.dateissued";
@@ -101,6 +106,12 @@
   shacl:name "date issued"@en;
   shacl:path dc:issued .
 
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/488f0bcb1b2d7cb5288ca9952a7b94f106f95859> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.title";
+  shacl:datatype rdf:langString;
+  shacl:description "A name given to the resource."@en;
+  shacl:name "title"@en;
+  shacl:path dc:title .
+
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/517df872c0d40c23da2371a4b362e0948d18746d> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.replaces";
   shacl:description "A related resource that is supplanted, displaced, or superseded by the described resource."@en;
   shacl:name "replaces"@en;
@@ -142,6 +153,12 @@
   shacl:maxCount 1;
   shacl:name "replaces"@en;
   shacl:path dc:replaces .
+
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/92d65d33f2a5d5345f1980ffd0cf304e47dd0caf> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.title";
+  shacl:description "A name given to the resource."@en;
+  shacl:name "title"@en;
+  shacl:path dc:title;
+  shacl:uniqueLang true .
 
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/9380ee54faf9ee92c4f4ea00d9c9132fc5ce831f> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.datecreated";
   shacl:datatype xsd:date;
@@ -191,11 +208,23 @@
   shacl:name "date modified"@en;
   shacl:path dc:modified .
 
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/c4fdb9967443dd30f3b42d440beb3d113f53bd01> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.title";
+  shacl:description "A name given to the resource."@en;
+  shacl:maxCount 1;
+  shacl:name "title"@en;
+  shacl:path dc:title .
+
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/cc690f56d4e515fa4e04625718e23c5dbeb6883d> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.isreplacedby";
   shacl:description "A related resource that supplants, displaces, or supersedes the described resource."@en;
   shacl:name "is replaced by"@en;
   shacl:nodeKind shacl:BlankNodeOrIRI;
   shacl:path dc:isReplacedBy .
+
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/d5d74574f70f9a979535f3624608f88180dd0c97> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.title";
+  shacl:description "A name given to the resource."@en;
+  shacl:name "title"@en;
+  shacl:nodeKind shacl:Literal;
+  shacl:path dc:title .
 
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/d95cbc3c12075d87aa0a5059de6ac8e4ff89a687> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.versioninfo";
   shacl:description "This element contains a string giving information about this version such as RCS/CVS keywords."@en;
@@ -232,6 +261,12 @@
   shacl:description "Date of formal issuance of the resource."@en;
   shacl:name "date issued"@en;
   shacl:path dc:issued .
+
+<https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptSchemeShape/f8b02efd063b8089b72ce9677a1e4a3488eeb9a9> rdfs:seeAlso "https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptScheme.title";
+  shacl:description "A name given to the resource."@en;
+  shacl:minCount 1;
+  shacl:name "title"@en;
+  shacl:path dc:title .
 
 <https://EmidioStani.github.io/D4WTA-AP/releases/1.0.0/#ConceptShape> a shacl:NodeShape;
   shacl:closed false;
